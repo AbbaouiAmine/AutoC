@@ -1,0 +1,1989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A97D36E-0A2E-47E9-9F4E-0FC96BA8C4E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>autoc</RootNamespace>
+    <AssemblyName>autoc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\root\Desktop\AutoC\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icob.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>91ACFC1D29EA917CF42F39CEABC11E9C5C49A791</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>autoc_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>autoc.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Humanizer, Version=1.37.0.0, Culture=neutral, PublicKeyToken=979442b78dfc278e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Humanizer.1.37.0\lib\portable-win+net40+sl50+wp8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Humanizer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.XmlTransform, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=2.14.0.832, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Core.2.14.0\lib\net40-Client\NuGet.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01Tarif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01Tarif.Designer.cs">
+      <DependentUpon>01Tarif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02Accessoire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02Accessoire.Designer.cs">
+      <DependentUpon>02Accessoire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03Consultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03Consultation.Designer.cs">
+      <DependentUpon>03Consultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04Fiche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04Fiche.Designer.cs">
+      <DependentUpon>04Fiche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05Facture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05Facture.Designer.cs">
+      <DependentUpon>05Facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06Aide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06Aide.Designer.cs">
+      <DependentUpon>06Aide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="07Remise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07Remise.Designer.cs">
+      <DependentUpon>07Remise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="08Choix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08Choix.Designer.cs">
+      <DependentUpon>08Choix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="09Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09Message.Designer.cs">
+      <DependentUpon>09Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="facture.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>facture.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FactureInfo.cs" />
+    <Compile Include="factureO.cs" />
+    <Compile Include="fiche.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fiche.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FicheInfo.cs" />
+    <Compile Include="ficheO.cs" />
+    <Compile Include="FileAssociationInfo.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramAssociationInfo.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ProgramIcon.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ProgramVerb.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistryException.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="RegistryWrapper.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Services.cs" />
+    <Compile Include="ShellNotification.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TarifSer.cs" />
+    <Compile Include="Wait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wait.Designer.cs">
+      <DependentUpon>Wait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="01Tarif.fr.resx">
+      <DependentUpon>01Tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01Tarif.resx">
+      <DependentUpon>01Tarif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02Accessoire.resx">
+      <DependentUpon>02Accessoire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03Consultation.resx">
+      <DependentUpon>03Consultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04Fiche.resx">
+      <DependentUpon>04Fiche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05Facture.resx">
+      <DependentUpon>05Facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06Aide.resx">
+      <DependentUpon>06Aide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07Remise.resx">
+      <DependentUpon>07Remise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08Choix.resx">
+      <DependentUpon>08Choix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09Message.resx">
+      <DependentUpon>09Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facture.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>facture.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fiche.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>fiche.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Wait.resx">
+      <DependentUpon>Wait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="autoc_TemporaryKey.pfx" />
+    <None Include="Crystal\cryptocme2.sig" />
+    <None Include="DatabaseDataSet.xsc">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet.xss">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dacia-duster-h79-ph2-overview-look-0011.jpg.ximg_.l_12_m.smart_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-consultant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turn-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-consultant1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icowhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-consultantB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repairB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\priceB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tagB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultant.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultationB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultationB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price1B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Crystal\BCM-4-0.dll" />
+    <Content Include="Crystal\boezlib.dll" />
+    <Content Include="Crystal\ccme_base.dll" />
+    <Content Include="Crystal\clientdoc.dll" />
+    <Content Include="Crystal\clientdoc_res_cs.dll" />
+    <Content Include="Crystal\clientdoc_res_da.dll" />
+    <Content Include="Crystal\clientdoc_res_de.dll" />
+    <Content Include="Crystal\clientdoc_res_en.dll" />
+    <Content Include="Crystal\clientdoc_res_es.dll" />
+    <Content Include="Crystal\clientdoc_res_fi.dll" />
+    <Content Include="Crystal\clientdoc_res_fr.dll" />
+    <Content Include="Crystal\clientdoc_res_hu.dll" />
+    <Content Include="Crystal\clientdoc_res_it.dll" />
+    <Content Include="Crystal\clientdoc_res_ja.dll" />
+    <Content Include="Crystal\clientdoc_res_ko.dll" />
+    <Content Include="Crystal\clientdoc_res_nb.dll" />
+    <Content Include="Crystal\clientdoc_res_nl.dll" />
+    <Content Include="Crystal\clientdoc_res_pl.dll" />
+    <Content Include="Crystal\clientdoc_res_pt.dll" />
+    <Content Include="Crystal\clientdoc_res_ru.dll" />
+    <Content Include="Crystal\clientdoc_res_sk.dll" />
+    <Content Include="Crystal\clientdoc_res_sv.dll" />
+    <Content Include="Crystal\clientdoc_res_th.dll" />
+    <Content Include="Crystal\clientdoc_res_tr.dll" />
+    <Content Include="Crystal\clientdoc_res_zh_CN.dll" />
+    <Content Include="Crystal\clientdoc_res_zh_TW.dll" />
+    <Content Include="Crystal\clientSDKOptions.xml" />
+    <Content Include="Crystal\commonobjmodel.dll" />
+    <Content Include="Crystal\commonobjmodel_res_cs.dll" />
+    <Content Include="Crystal\commonobjmodel_res_da.dll" />
+    <Content Include="Crystal\commonobjmodel_res_de.dll" />
+    <Content Include="Crystal\commonobjmodel_res_en.dll" />
+    <Content Include="Crystal\commonobjmodel_res_es.dll" />
+    <Content Include="Crystal\commonobjmodel_res_fi.dll" />
+    <Content Include="Crystal\commonobjmodel_res_fr.dll" />
+    <Content Include="Crystal\commonobjmodel_res_hu.dll" />
+    <Content Include="Crystal\commonobjmodel_res_it.dll" />
+    <Content Include="Crystal\commonobjmodel_res_ja.dll" />
+    <Content Include="Crystal\commonobjmodel_res_ko.dll" />
+    <Content Include="Crystal\commonobjmodel_res_nb.dll" />
+    <Content Include="Crystal\commonobjmodel_res_nl.dll" />
+    <Content Include="Crystal\commonobjmodel_res_pl.dll" />
+    <Content Include="Crystal\commonobjmodel_res_pt.dll" />
+    <Content Include="Crystal\commonobjmodel_res_ru.dll" />
+    <Content Include="Crystal\commonobjmodel_res_sk.dll" />
+    <Content Include="Crystal\commonobjmodel_res_sv.dll" />
+    <Content Include="Crystal\commonobjmodel_res_th.dll" />
+    <Content Include="Crystal\commonobjmodel_res_tr.dll" />
+    <Content Include="Crystal\commonobjmodel_res_zh_CN.dll" />
+    <Content Include="Crystal\commonobjmodel_res_zh_TW.dll" />
+    <Content Include="Crystal\crdb_ado.dll" />
+    <Content Include="Crystal\crdb_adoplus.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_cs.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_da.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_de.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_en.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_es.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_fi.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_fr.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_hu.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_it.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_ja.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_ko.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_nb.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_nl.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_pl.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_pt.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_ru.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_sk.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_sv.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_th.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_tr.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_zh_CN.dll" />
+    <Content Include="Crystal\crdb_adoplus_res_zh_TW.dll" />
+    <Content Include="Crystal\crdb_ado_res_cs.dll" />
+    <Content Include="Crystal\crdb_ado_res_da.dll" />
+    <Content Include="Crystal\crdb_ado_res_de.dll" />
+    <Content Include="Crystal\crdb_ado_res_en.dll" />
+    <Content Include="Crystal\crdb_ado_res_es.dll" />
+    <Content Include="Crystal\crdb_ado_res_fi.dll" />
+    <Content Include="Crystal\crdb_ado_res_fr.dll" />
+    <Content Include="Crystal\crdb_ado_res_hu.dll" />
+    <Content Include="Crystal\crdb_ado_res_it.dll" />
+    <Content Include="Crystal\crdb_ado_res_ja.dll" />
+    <Content Include="Crystal\crdb_ado_res_ko.dll" />
+    <Content Include="Crystal\crdb_ado_res_nb.dll" />
+    <Content Include="Crystal\crdb_ado_res_nl.dll" />
+    <Content Include="Crystal\crdb_ado_res_pl.dll" />
+    <Content Include="Crystal\crdb_ado_res_pt.dll" />
+    <Content Include="Crystal\crdb_ado_res_ru.dll" />
+    <Content Include="Crystal\crdb_ado_res_sk.dll" />
+    <Content Include="Crystal\crdb_ado_res_sv.dll" />
+    <Content Include="Crystal\crdb_ado_res_th.dll" />
+    <Content Include="Crystal\crdb_ado_res_tr.dll" />
+    <Content Include="Crystal\crdb_ado_res_zh_CN.dll" />
+    <Content Include="Crystal\crdb_ado_res_zh_TW.dll" />
+    <Content Include="Crystal\crdb_dataset.dll" />
+    <Content Include="Crystal\crdb_dataset_res_cs.dll" />
+    <Content Include="Crystal\crdb_dataset_res_da.dll" />
+    <Content Include="Crystal\crdb_dataset_res_de.dll" />
+    <Content Include="Crystal\crdb_dataset_res_en.dll" />
+    <Content Include="Crystal\crdb_dataset_res_es.dll" />
+    <Content Include="Crystal\crdb_dataset_res_fi.dll" />
+    <Content Include="Crystal\crdb_dataset_res_fr.dll" />
+    <Content Include="Crystal\crdb_dataset_res_hu.dll" />
+    <Content Include="Crystal\crdb_dataset_res_it.dll" />
+    <Content Include="Crystal\crdb_dataset_res_ja.dll" />
+    <Content Include="Crystal\crdb_dataset_res_ko.dll" />
+    <Content Include="Crystal\crdb_dataset_res_nb.dll" />
+    <Content Include="Crystal\crdb_dataset_res_nl.dll" />
+    <Content Include="Crystal\crdb_dataset_res_pl.dll" />
+    <Content Include="Crystal\crdb_dataset_res_pt.dll" />
+    <Content Include="Crystal\crdb_dataset_res_ru.dll" />
+    <Content Include="Crystal\crdb_dataset_res_sk.dll" />
+    <Content Include="Crystal\crdb_dataset_res_sv.dll" />
+    <Content Include="Crystal\crdb_dataset_res_th.dll" />
+    <Content Include="Crystal\crdb_dataset_res_tr.dll" />
+    <Content Include="Crystal\crdb_dataset_res_zh_CN.dll" />
+    <Content Include="Crystal\crdb_dataset_res_zh_TW.dll" />
+    <Content Include="Crystal\crdb_odbc.dll" />
+    <Content Include="Crystal\crdb_odbc_res_cs.dll" />
+    <Content Include="Crystal\crdb_odbc_res_da.dll" />
+    <Content Include="Crystal\crdb_odbc_res_de.dll" />
+    <Content Include="Crystal\crdb_odbc_res_en.dll" />
+    <Content Include="Crystal\crdb_odbc_res_es.dll" />
+    <Content Include="Crystal\crdb_odbc_res_fi.dll" />
+    <Content Include="Crystal\crdb_odbc_res_fr.dll" />
+    <Content Include="Crystal\crdb_odbc_res_hu.dll" />
+    <Content Include="Crystal\crdb_odbc_res_it.dll" />
+    <Content Include="Crystal\crdb_odbc_res_ja.dll" />
+    <Content Include="Crystal\crdb_odbc_res_ko.dll" />
+    <Content Include="Crystal\crdb_odbc_res_nb.dll" />
+    <Content Include="Crystal\crdb_odbc_res_nl.dll" />
+    <Content Include="Crystal\crdb_odbc_res_pl.dll" />
+    <Content Include="Crystal\crdb_odbc_res_pt.dll" />
+    <Content Include="Crystal\crdb_odbc_res_ru.dll" />
+    <Content Include="Crystal\crdb_odbc_res_sk.dll" />
+    <Content Include="Crystal\crdb_odbc_res_sv.dll" />
+    <Content Include="Crystal\crdb_odbc_res_th.dll" />
+    <Content Include="Crystal\crdb_odbc_res_tr.dll" />
+    <Content Include="Crystal\crdb_odbc_res_zh_CN.dll" />
+    <Content Include="Crystal\crdb_odbc_res_zh_TW.dll" />
+    <Content Include="Crystal\crdb_oracle.dll" />
+    <Content Include="Crystal\crdb_oracle_res_cs.dll" />
+    <Content Include="Crystal\crdb_oracle_res_da.dll" />
+    <Content Include="Crystal\crdb_oracle_res_de.dll" />
+    <Content Include="Crystal\crdb_oracle_res_en.dll" />
+    <Content Include="Crystal\crdb_oracle_res_es.dll" />
+    <Content Include="Crystal\crdb_oracle_res_fi.dll" />
+    <Content Include="Crystal\crdb_oracle_res_fr.dll" />
+    <Content Include="Crystal\crdb_oracle_res_hu.dll" />
+    <Content Include="Crystal\crdb_oracle_res_it.dll" />
+    <Content Include="Crystal\crdb_oracle_res_ja.dll" />
+    <Content Include="Crystal\crdb_oracle_res_ko.dll" />
+    <Content Include="Crystal\crdb_oracle_res_nb.dll" />
+    <Content Include="Crystal\crdb_oracle_res_nl.dll" />
+    <Content Include="Crystal\crdb_oracle_res_pl.dll" />
+    <Content Include="Crystal\crdb_oracle_res_pt.dll" />
+    <Content Include="Crystal\crdb_oracle_res_ru.dll" />
+    <Content Include="Crystal\crdb_oracle_res_sk.dll" />
+    <Content Include="Crystal\crdb_oracle_res_sv.dll" />
+    <Content Include="Crystal\crdb_oracle_res_th.dll" />
+    <Content Include="Crystal\crdb_oracle_res_tr.dll" />
+    <Content Include="Crystal\crdb_oracle_res_zh_CN.dll" />
+    <Content Include="Crystal\crdb_oracle_res_zh_TW.dll" />
+    <Content Include="Crystal\crheapalloc3.dll" />
+    <Content Include="Crystal\crlang.dll" />
+    <Content Include="Crystal\crlogger.dll" />
+    <Content Include="Crystal\crlov.dll" />
+    <Content Include="Crystal\crlov_res_cs.dll" />
+    <Content Include="Crystal\crlov_res_da.dll" />
+    <Content Include="Crystal\crlov_res_de.dll" />
+    <Content Include="Crystal\crlov_res_en.dll" />
+    <Content Include="Crystal\crlov_res_es.dll" />
+    <Content Include="Crystal\crlov_res_fi.dll" />
+    <Content Include="Crystal\crlov_res_fr.dll" />
+    <Content Include="Crystal\crlov_res_hu.dll" />
+    <Content Include="Crystal\crlov_res_it.dll" />
+    <Content Include="Crystal\crlov_res_ja.dll" />
+    <Content Include="Crystal\crlov_res_ko.dll" />
+    <Content Include="Crystal\crlov_res_nb.dll" />
+    <Content Include="Crystal\crlov_res_nl.dll" />
+    <Content Include="Crystal\crlov_res_pl.dll" />
+    <Content Include="Crystal\crlov_res_pt.dll" />
+    <Content Include="Crystal\crlov_res_ru.dll" />
+    <Content Include="Crystal\crlov_res_sk.dll" />
+    <Content Include="Crystal\crlov_res_sv.dll" />
+    <Content Include="Crystal\crlov_res_th.dll" />
+    <Content Include="Crystal\crlov_res_tr.dll" />
+    <Content Include="Crystal\crlov_res_zh_CN.dll" />
+    <Content Include="Crystal\crlov_res_zh_TW.dll" />
+    <Content Include="Crystal\crpe32.dll" />
+    <Content Include="Crystal\crpe32_res_cs.dll" />
+    <Content Include="Crystal\crpe32_res_da.dll" />
+    <Content Include="Crystal\crpe32_res_de.dll" />
+    <Content Include="Crystal\crpe32_res_en.dll" />
+    <Content Include="Crystal\crpe32_res_es.dll" />
+    <Content Include="Crystal\crpe32_res_fi.dll" />
+    <Content Include="Crystal\crpe32_res_fr.dll" />
+    <Content Include="Crystal\crpe32_res_hu.dll" />
+    <Content Include="Crystal\crpe32_res_it.dll" />
+    <Content Include="Crystal\crpe32_res_ja.dll" />
+    <Content Include="Crystal\crpe32_res_ko.dll" />
+    <Content Include="Crystal\crpe32_res_nb.dll" />
+    <Content Include="Crystal\crpe32_res_nl.dll" />
+    <Content Include="Crystal\crpe32_res_pl.dll" />
+    <Content Include="Crystal\crpe32_res_pt.dll" />
+    <Content Include="Crystal\crpe32_res_ru.dll" />
+    <Content Include="Crystal\crpe32_res_sk.dll" />
+    <Content Include="Crystal\crpe32_res_sv.dll" />
+    <Content Include="Crystal\crpe32_res_th.dll" />
+    <Content Include="Crystal\crpe32_res_tr.dll" />
+    <Content Include="Crystal\crpe32_res_zh_CN.dll" />
+    <Content Include="Crystal\crpe32_res_zh_TW.dll" />
+    <Content Include="Crystal\crqe.dll" />
+    <Content Include="Crystal\crqe_res_cs.dll" />
+    <Content Include="Crystal\crqe_res_da.dll" />
+    <Content Include="Crystal\crqe_res_de.dll" />
+    <Content Include="Crystal\crqe_res_en.dll" />
+    <Content Include="Crystal\crqe_res_es.dll" />
+    <Content Include="Crystal\crqe_res_fi.dll" />
+    <Content Include="Crystal\crqe_res_fr.dll" />
+    <Content Include="Crystal\crqe_res_hu.dll" />
+    <Content Include="Crystal\crqe_res_it.dll" />
+    <Content Include="Crystal\crqe_res_ja.dll" />
+    <Content Include="Crystal\crqe_res_ko.dll" />
+    <Content Include="Crystal\crqe_res_nb.dll" />
+    <Content Include="Crystal\crqe_res_nl.dll" />
+    <Content Include="Crystal\crqe_res_pl.dll" />
+    <Content Include="Crystal\crqe_res_pt.dll" />
+    <Content Include="Crystal\crqe_res_ru.dll" />
+    <Content Include="Crystal\crqe_res_sk.dll" />
+    <Content Include="Crystal\crqe_res_sv.dll" />
+    <Content Include="Crystal\crqe_res_th.dll" />
+    <Content Include="Crystal\crqe_res_tr.dll" />
+    <Content Include="Crystal\crqe_res_zh_CN.dll" />
+    <Content Include="Crystal\crqe_res_zh_TW.dll" />
+    <Content Include="Crystal\crtowords_de.dll" />
+    <Content Include="Crystal\crtowords_en.dll" />
+    <Content Include="Crystal\crtowords_es.dll" />
+    <Content Include="Crystal\crtowords_fr.dll" />
+    <Content Include="Crystal\crtowords_it.dll" />
+    <Content Include="Crystal\crtowords_ja.dll" />
+    <Content Include="Crystal\crtowords_ko.dll" />
+    <Content Include="Crystal\crtowords_nl.dll" />
+    <Content Include="Crystal\crtowords_pl.dll" />
+    <Content Include="Crystal\crtowords_pt.dll" />
+    <Content Include="Crystal\crtowords_ru.dll" />
+    <Content Include="Crystal\crtowords_sv.dll" />
+    <Content Include="Crystal\crtowords_zh_CN.dll" />
+    <Content Include="Crystal\crtowords_zh_TW.dll" />
+    <Content Include="Crystal\crtslv.dll" />
+    <Content Include="Crystal\crxf_html.dll" />
+    <Content Include="Crystal\crxf_html_res_cs.dll" />
+    <Content Include="Crystal\crxf_html_res_da.dll" />
+    <Content Include="Crystal\crxf_html_res_de.dll" />
+    <Content Include="Crystal\crxf_html_res_en.dll" />
+    <Content Include="Crystal\crxf_html_res_es.dll" />
+    <Content Include="Crystal\crxf_html_res_fi.dll" />
+    <Content Include="Crystal\crxf_html_res_fr.dll" />
+    <Content Include="Crystal\crxf_html_res_hu.dll" />
+    <Content Include="Crystal\crxf_html_res_it.dll" />
+    <Content Include="Crystal\crxf_html_res_ja.dll" />
+    <Content Include="Crystal\crxf_html_res_ko.dll" />
+    <Content Include="Crystal\crxf_html_res_nb.dll" />
+    <Content Include="Crystal\crxf_html_res_nl.dll" />
+    <Content Include="Crystal\crxf_html_res_pl.dll" />
+    <Content Include="Crystal\crxf_html_res_pt.dll" />
+    <Content Include="Crystal\crxf_html_res_ru.dll" />
+    <Content Include="Crystal\crxf_html_res_sk.dll" />
+    <Content Include="Crystal\crxf_html_res_sv.dll" />
+    <Content Include="Crystal\crxf_html_res_th.dll" />
+    <Content Include="Crystal\crxf_html_res_tr.dll" />
+    <Content Include="Crystal\crxf_html_res_zh_CN.dll" />
+    <Content Include="Crystal\crxf_html_res_zh_TW.dll" />
+    <Content Include="Crystal\crxf_pdf.dll" />
+    <Content Include="Crystal\crxf_pdf_res_cs.dll" />
+    <Content Include="Crystal\crxf_pdf_res_da.dll" />
+    <Content Include="Crystal\crxf_pdf_res_de.dll" />
+    <Content Include="Crystal\crxf_pdf_res_en.dll" />
+    <Content Include="Crystal\crxf_pdf_res_es.dll" />
+    <Content Include="Crystal\crxf_pdf_res_fi.dll" />
+    <Content Include="Crystal\crxf_pdf_res_fr.dll" />
+    <Content Include="Crystal\crxf_pdf_res_hu.dll" />
+    <Content Include="Crystal\crxf_pdf_res_it.dll" />
+    <Content Include="Crystal\crxf_pdf_res_ja.dll" />
+    <Content Include="Crystal\crxf_pdf_res_ko.dll" />
+    <Content Include="Crystal\crxf_pdf_res_nb.dll" />
+    <Content Include="Crystal\crxf_pdf_res_nl.dll" />
+    <Content Include="Crystal\crxf_pdf_res_pl.dll" />
+    <Content Include="Crystal\crxf_pdf_res_pt.dll" />
+    <Content Include="Crystal\crxf_pdf_res_ru.dll" />
+    <Content Include="Crystal\crxf_pdf_res_sk.dll" />
+    <Content Include="Crystal\crxf_pdf_res_sv.dll" />
+    <Content Include="Crystal\crxf_pdf_res_th.dll" />
+    <Content Include="Crystal\crxf_pdf_res_tr.dll" />
+    <Content Include="Crystal\crxf_pdf_res_zh_CN.dll" />
+    <Content Include="Crystal\crxf_pdf_res_zh_TW.dll" />
+    <Content Include="Crystal\crxf_rtf.dll" />
+    <Content Include="Crystal\crxf_rtf_res_cs.dll" />
+    <Content Include="Crystal\crxf_rtf_res_da.dll" />
+    <Content Include="Crystal\crxf_rtf_res_de.dll" />
+    <Content Include="Crystal\crxf_rtf_res_en.dll" />
+    <Content Include="Crystal\crxf_rtf_res_es.dll" />
+    <Content Include="Crystal\crxf_rtf_res_fi.dll" />
+    <Content Include="Crystal\crxf_rtf_res_fr.dll" />
+    <Content Include="Crystal\crxf_rtf_res_hu.dll" />
+    <Content Include="Crystal\crxf_rtf_res_it.dll" />
+    <Content Include="Crystal\crxf_rtf_res_ja.dll" />
+    <Content Include="Crystal\crxf_rtf_res_ko.dll" />
+    <Content Include="Crystal\crxf_rtf_res_nb.dll" />
+    <Content Include="Crystal\crxf_rtf_res_nl.dll" />
+    <Content Include="Crystal\crxf_rtf_res_pl.dll" />
+    <Content Include="Crystal\crxf_rtf_res_pt.dll" />
+    <Content Include="Crystal\crxf_rtf_res_ru.dll" />
+    <Content Include="Crystal\crxf_rtf_res_sk.dll" />
+    <Content Include="Crystal\crxf_rtf_res_sv.dll" />
+    <Content Include="Crystal\crxf_rtf_res_th.dll" />
+    <Content Include="Crystal\crxf_rtf_res_tr.dll" />
+    <Content Include="Crystal\crxf_rtf_res_zh_CN.dll" />
+    <Content Include="Crystal\crxf_rtf_res_zh_TW.dll" />
+    <Content Include="Crystal\crxf_wordw.dll" />
+    <Content Include="Crystal\crxf_xls.dll" />
+    <Content Include="Crystal\crxf_xls_res_cs.dll" />
+    <Content Include="Crystal\crxf_xls_res_da.dll" />
+    <Content Include="Crystal\crxf_xls_res_de.dll" />
+    <Content Include="Crystal\crxf_xls_res_en.dll" />
+    <Content Include="Crystal\crxf_xls_res_es.dll" />
+    <Content Include="Crystal\crxf_xls_res_fi.dll" />
+    <Content Include="Crystal\crxf_xls_res_fr.dll" />
+    <Content Include="Crystal\crxf_xls_res_hu.dll" />
+    <Content Include="Crystal\crxf_xls_res_it.dll" />
+    <Content Include="Crystal\crxf_xls_res_ja.dll" />
+    <Content Include="Crystal\crxf_xls_res_ko.dll" />
+    <Content Include="Crystal\crxf_xls_res_nb.dll" />
+    <Content Include="Crystal\crxf_xls_res_nl.dll" />
+    <Content Include="Crystal\crxf_xls_res_pl.dll" />
+    <Content Include="Crystal\crxf_xls_res_pt.dll" />
+    <Content Include="Crystal\crxf_xls_res_ru.dll" />
+    <Content Include="Crystal\crxf_xls_res_sk.dll" />
+    <Content Include="Crystal\crxf_xls_res_sv.dll" />
+    <Content Include="Crystal\crxf_xls_res_th.dll" />
+    <Content Include="Crystal\crxf_xls_res_tr.dll" />
+    <Content Include="Crystal\crxf_xls_res_zh_CN.dll" />
+    <Content Include="Crystal\crxf_xls_res_zh_TW.dll" />
+    <Content Include="Crystal\crxf_xml2.dll" />
+    <Content Include="Crystal\cryptocme2.dll" />
+    <Content Include="Crystal\cslibu-3-0.dll" />
+    <Content Include="Crystal\csprintdlg.dll" />
+    <Content Include="Crystal\csprintdlg_res_cs.dll" />
+    <Content Include="Crystal\csprintdlg_res_da.dll" />
+    <Content Include="Crystal\csprintdlg_res_de.dll" />
+    <Content Include="Crystal\csprintdlg_res_en.dll" />
+    <Content Include="Crystal\csprintdlg_res_es.dll" />
+    <Content Include="Crystal\csprintdlg_res_fi.dll" />
+    <Content Include="Crystal\csprintdlg_res_fr.dll" />
+    <Content Include="Crystal\csprintdlg_res_hu.dll" />
+    <Content Include="Crystal\csprintdlg_res_it.dll" />
+    <Content Include="Crystal\csprintdlg_res_ja.dll" />
+    <Content Include="Crystal\csprintdlg_res_ko.dll" />
+    <Content Include="Crystal\csprintdlg_res_nb.dll" />
+    <Content Include="Crystal\csprintdlg_res_nl.dll" />
+    <Content Include="Crystal\csprintdlg_res_pl.dll" />
+    <Content Include="Crystal\csprintdlg_res_pt.dll" />
+    <Content Include="Crystal\csprintdlg_res_ru.dll" />
+    <Content Include="Crystal\csprintdlg_res_sk.dll" />
+    <Content Include="Crystal\csprintdlg_res_sv.dll" />
+    <Content Include="Crystal\csprintdlg_res_th.dll" />
+    <Content Include="Crystal\csprintdlg_res_tr.dll" />
+    <Content Include="Crystal\csprintdlg_res_zh_CN.dll" />
+    <Content Include="Crystal\csprintdlg_res_zh_TW.dll" />
+    <Content Include="Crystal\cubedefmodel.dll" />
+    <Content Include="Crystal\cubedefmodel_res_cs.dll" />
+    <Content Include="Crystal\cubedefmodel_res_da.dll" />
+    <Content Include="Crystal\cubedefmodel_res_de.dll" />
+    <Content Include="Crystal\cubedefmodel_res_en.dll" />
+    <Content Include="Crystal\cubedefmodel_res_es.dll" />
+    <Content Include="Crystal\cubedefmodel_res_fi.dll" />
+    <Content Include="Crystal\cubedefmodel_res_fr.dll" />
+    <Content Include="Crystal\cubedefmodel_res_hu.dll" />
+    <Content Include="Crystal\cubedefmodel_res_it.dll" />
+    <Content Include="Crystal\cubedefmodel_res_ja.dll" />
+    <Content Include="Crystal\cubedefmodel_res_ko.dll" />
+    <Content Include="Crystal\cubedefmodel_res_nb.dll" />
+    <Content Include="Crystal\cubedefmodel_res_nl.dll" />
+    <Content Include="Crystal\cubedefmodel_res_pl.dll" />
+    <Content Include="Crystal\cubedefmodel_res_pt.dll" />
+    <Content Include="Crystal\cubedefmodel_res_ru.dll" />
+    <Content Include="Crystal\cubedefmodel_res_sk.dll" />
+    <Content Include="Crystal\cubedefmodel_res_sv.dll" />
+    <Content Include="Crystal\cubedefmodel_res_th.dll" />
+    <Content Include="Crystal\cubedefmodel_res_tr.dll" />
+    <Content Include="Crystal\cubedefmodel_res_zh_CN.dll" />
+    <Content Include="Crystal\cubedefmodel_res_zh_TW.dll" />
+    <Content Include="Crystal\cxlib-5-0.dll" />
+    <Content Include="Crystal\cxlibw-5-0.dll" />
+    <Content Include="Crystal\datadefmodel.dll" />
+    <Content Include="Crystal\datadefmodel_res_cs.dll" />
+    <Content Include="Crystal\datadefmodel_res_da.dll" />
+    <Content Include="Crystal\datadefmodel_res_de.dll" />
+    <Content Include="Crystal\datadefmodel_res_en.dll" />
+    <Content Include="Crystal\datadefmodel_res_es.dll" />
+    <Content Include="Crystal\datadefmodel_res_fi.dll" />
+    <Content Include="Crystal\datadefmodel_res_fr.dll" />
+    <Content Include="Crystal\datadefmodel_res_hu.dll" />
+    <Content Include="Crystal\datadefmodel_res_it.dll" />
+    <Content Include="Crystal\datadefmodel_res_ja.dll" />
+    <Content Include="Crystal\datadefmodel_res_ko.dll" />
+    <Content Include="Crystal\datadefmodel_res_nb.dll" />
+    <Content Include="Crystal\datadefmodel_res_nl.dll" />
+    <Content Include="Crystal\datadefmodel_res_pl.dll" />
+    <Content Include="Crystal\datadefmodel_res_pt.dll" />
+    <Content Include="Crystal\datadefmodel_res_ru.dll" />
+    <Content Include="Crystal\datadefmodel_res_sk.dll" />
+    <Content Include="Crystal\datadefmodel_res_sv.dll" />
+    <Content Include="Crystal\datadefmodel_res_th.dll" />
+    <Content Include="Crystal\datadefmodel_res_tr.dll" />
+    <Content Include="Crystal\datadefmodel_res_zh_CN.dll" />
+    <Content Include="Crystal\datadefmodel_res_zh_TW.dll" />
+    <Content Include="Crystal\dtsagent.dll" />
+    <Content Include="Crystal\dtsagentd_res_cs.dll" />
+    <Content Include="Crystal\dtsagentd_res_da.dll" />
+    <Content Include="Crystal\dtsagentd_res_de.dll" />
+    <Content Include="Crystal\dtsagentd_res_en.dll" />
+    <Content Include="Crystal\dtsagentd_res_es.dll" />
+    <Content Include="Crystal\dtsagentd_res_fi.dll" />
+    <Content Include="Crystal\dtsagentd_res_fr.dll" />
+    <Content Include="Crystal\dtsagentd_res_hu.dll" />
+    <Content Include="Crystal\dtsagentd_res_it.dll" />
+    <Content Include="Crystal\dtsagentd_res_ja.dll" />
+    <Content Include="Crystal\dtsagentd_res_ko.dll" />
+    <Content Include="Crystal\dtsagentd_res_nb.dll" />
+    <Content Include="Crystal\dtsagentd_res_nl.dll" />
+    <Content Include="Crystal\dtsagentd_res_pl.dll" />
+    <Content Include="Crystal\dtsagentd_res_pt.dll" />
+    <Content Include="Crystal\dtsagentd_res_ru.dll" />
+    <Content Include="Crystal\dtsagentd_res_sk.dll" />
+    <Content Include="Crystal\dtsagentd_res_sv.dll" />
+    <Content Include="Crystal\dtsagentd_res_th.dll" />
+    <Content Include="Crystal\dtsagentd_res_tr.dll" />
+    <Content Include="Crystal\dtsagentd_res_zh_CN.dll" />
+    <Content Include="Crystal\dtsagentd_res_zh_TW.dll" />
+    <Content Include="Crystal\ebus-3-3-2-7.dll" />
+    <Content Include="Crystal\etc-1-0-12-6.dll" />
+    <Content Include="Crystal\exportmodeller.dll" />
+    <Content Include="Crystal\fssl-1-2-1-6.dll" />
+    <Content Include="Crystal\gdiplus.dll" />
+    <Content Include="Crystal\grouptreemodeller.dll" />
+    <Content Include="Crystal\ibm.txt" />
+    <Content Include="Crystal\icudt30.dll" />
+    <Content Include="Crystal\icuin30.dll" />
+    <Content Include="Crystal\icuuc30.dll" />
+    <Content Include="Crystal\keydecoder.dll" />
+    <Content Include="Crystal\libcurl.dll" />
+    <Content Include="Crystal\libOCAhelperw-5-0.dll" />
+    <Content Include="Crystal\libOCAsecurityw-4-0.dll" />
+    <Content Include="Crystal\libpng10.dll" />
+    <Content Include="Crystal\localcon.dll" />
+    <Content Include="Crystal\localcon_res_cs.dll" />
+    <Content Include="Crystal\localcon_res_da.dll" />
+    <Content Include="Crystal\localcon_res_de.dll" />
+    <Content Include="Crystal\localcon_res_en.dll" />
+    <Content Include="Crystal\localcon_res_es.dll" />
+    <Content Include="Crystal\localcon_res_fi.dll" />
+    <Content Include="Crystal\localcon_res_fr.dll" />
+    <Content Include="Crystal\localcon_res_hu.dll" />
+    <Content Include="Crystal\localcon_res_it.dll" />
+    <Content Include="Crystal\localcon_res_ja.dll" />
+    <Content Include="Crystal\localcon_res_ko.dll" />
+    <Content Include="Crystal\localcon_res_nb.dll" />
+    <Content Include="Crystal\localcon_res_nl.dll" />
+    <Content Include="Crystal\localcon_res_pl.dll" />
+    <Content Include="Crystal\localcon_res_pt.dll" />
+    <Content Include="Crystal\localcon_res_ru.dll" />
+    <Content Include="Crystal\localcon_res_sk.dll" />
+    <Content Include="Crystal\localcon_res_sv.dll" />
+    <Content Include="Crystal\localcon_res_th.dll" />
+    <Content Include="Crystal\localcon_res_tr.dll" />
+    <Content Include="Crystal\localcon_res_zh_CN.dll" />
+    <Content Include="Crystal\localcon_res_zh_TW.dll" />
+    <Content Include="Crystal\locale_fallback-4-0.dll" />
+    <Content Include="Crystal\ncs.dll" />
+    <Content Include="Crystal\nsclient140w.dll" />
+    <Content Include="Crystal\objectfactory.dll" />
+    <Content Include="Crystal\objectfactory_res_cs.dll" />
+    <Content Include="Crystal\objectfactory_res_da.dll" />
+    <Content Include="Crystal\objectfactory_res_de.dll" />
+    <Content Include="Crystal\objectfactory_res_en.dll" />
+    <Content Include="Crystal\objectfactory_res_es.dll" />
+    <Content Include="Crystal\objectfactory_res_fi.dll" />
+    <Content Include="Crystal\objectfactory_res_fr.dll" />
+    <Content Include="Crystal\objectfactory_res_hu.dll" />
+    <Content Include="Crystal\objectfactory_res_it.dll" />
+    <Content Include="Crystal\objectfactory_res_ja.dll" />
+    <Content Include="Crystal\objectfactory_res_ko.dll" />
+    <Content Include="Crystal\objectfactory_res_nb.dll" />
+    <Content Include="Crystal\objectfactory_res_nl.dll" />
+    <Content Include="Crystal\objectfactory_res_pl.dll" />
+    <Content Include="Crystal\objectfactory_res_pt.dll" />
+    <Content Include="Crystal\objectfactory_res_ru.dll" />
+    <Content Include="Crystal\objectfactory_res_sk.dll" />
+    <Content Include="Crystal\objectfactory_res_sv.dll" />
+    <Content Include="Crystal\objectfactory_res_th.dll" />
+    <Content Include="Crystal\objectfactory_res_tr.dll" />
+    <Content Include="Crystal\objectfactory_res_zh_CN.dll" />
+    <Content Include="Crystal\objectfactory_res_zh_TW.dll" />
+    <Content Include="Crystal\pageobjectmodel.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_cs.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_da.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_de.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_en.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_es.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_fi.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_fr.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_hu.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_it.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_ja.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_ko.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_nb.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_nl.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_pl.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_pt.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_ru.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_sk.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_sv.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_th.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_tr.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_zh_CN.dll" />
+    <Content Include="Crystal\pageobjectmodel_res_zh_TW.dll" />
+    <Content Include="Crystal\ParameterDesigner.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_cs.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_da.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_de.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_en.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_es.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_fi.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_fr.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_hu.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_it.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_ja.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_ko.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_nb.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_nl.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_pl.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_pt.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_ru.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_sk.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_sv.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_th.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_tr.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_zh_CN.dll" />
+    <Content Include="Crystal\ParameterDesigner_res_zh_TW.dll" />
+    <Content Include="Crystal\prompt.dll" />
+    <Content Include="Crystal\prompt_res_cs.dll" />
+    <Content Include="Crystal\prompt_res_da.dll" />
+    <Content Include="Crystal\prompt_res_de.dll" />
+    <Content Include="Crystal\prompt_res_en.dll" />
+    <Content Include="Crystal\prompt_res_es.dll" />
+    <Content Include="Crystal\prompt_res_fi.dll" />
+    <Content Include="Crystal\prompt_res_fr.dll" />
+    <Content Include="Crystal\prompt_res_hu.dll" />
+    <Content Include="Crystal\prompt_res_it.dll" />
+    <Content Include="Crystal\prompt_res_ja.dll" />
+    <Content Include="Crystal\prompt_res_ko.dll" />
+    <Content Include="Crystal\prompt_res_nb.dll" />
+    <Content Include="Crystal\prompt_res_nl.dll" />
+    <Content Include="Crystal\prompt_res_pl.dll" />
+    <Content Include="Crystal\prompt_res_pt.dll" />
+    <Content Include="Crystal\prompt_res_ru.dll" />
+    <Content Include="Crystal\prompt_res_sk.dll" />
+    <Content Include="Crystal\prompt_res_sv.dll" />
+    <Content Include="Crystal\prompt_res_th.dll" />
+    <Content Include="Crystal\prompt_res_tr.dll" />
+    <Content Include="Crystal\prompt_res_zh_CN.dll" />
+    <Content Include="Crystal\prompt_res_zh_TW.dll" />
+    <Content Include="Crystal\pvlocale-1-0.dll" />
+    <Content Include="Crystal\querybuilder.dll" />
+    <Content Include="Crystal\querybuilder_res_cs.dll" />
+    <Content Include="Crystal\querybuilder_res_da.dll" />
+    <Content Include="Crystal\querybuilder_res_de.dll" />
+    <Content Include="Crystal\querybuilder_res_en.dll" />
+    <Content Include="Crystal\querybuilder_res_es.dll" />
+    <Content Include="Crystal\querybuilder_res_fi.dll" />
+    <Content Include="Crystal\querybuilder_res_fr.dll" />
+    <Content Include="Crystal\querybuilder_res_hu.dll" />
+    <Content Include="Crystal\querybuilder_res_it.dll" />
+    <Content Include="Crystal\querybuilder_res_ja.dll" />
+    <Content Include="Crystal\querybuilder_res_ko.dll" />
+    <Content Include="Crystal\querybuilder_res_nb.dll" />
+    <Content Include="Crystal\querybuilder_res_nl.dll" />
+    <Content Include="Crystal\querybuilder_res_pl.dll" />
+    <Content Include="Crystal\querybuilder_res_pt.dll" />
+    <Content Include="Crystal\querybuilder_res_ru.dll" />
+    <Content Include="Crystal\querybuilder_res_sk.dll" />
+    <Content Include="Crystal\querybuilder_res_sv.dll" />
+    <Content Include="Crystal\querybuilder_res_th.dll" />
+    <Content Include="Crystal\querybuilder_res_tr.dll" />
+    <Content Include="Crystal\querybuilder_res_zh_CN.dll" />
+    <Content Include="Crystal\querybuilder_res_zh_TW.dll" />
+    <Content Include="Crystal\registrywrapper.dll" />
+    <Content Include="Crystal\reportrenderer.dll" />
+    <Content Include="Crystal\reportrenderer_res_cs.dll" />
+    <Content Include="Crystal\reportrenderer_res_da.dll" />
+    <Content Include="Crystal\reportrenderer_res_de.dll" />
+    <Content Include="Crystal\reportrenderer_res_en.dll" />
+    <Content Include="Crystal\reportrenderer_res_es.dll" />
+    <Content Include="Crystal\reportrenderer_res_fi.dll" />
+    <Content Include="Crystal\reportrenderer_res_fr.dll" />
+    <Content Include="Crystal\reportrenderer_res_hu.dll" />
+    <Content Include="Crystal\reportrenderer_res_it.dll" />
+    <Content Include="Crystal\reportrenderer_res_ja.dll" />
+    <Content Include="Crystal\reportrenderer_res_ko.dll" />
+    <Content Include="Crystal\reportrenderer_res_nb.dll" />
+    <Content Include="Crystal\reportrenderer_res_nl.dll" />
+    <Content Include="Crystal\reportrenderer_res_pl.dll" />
+    <Content Include="Crystal\reportrenderer_res_pt.dll" />
+    <Content Include="Crystal\reportrenderer_res_ru.dll" />
+    <Content Include="Crystal\reportrenderer_res_sk.dll" />
+    <Content Include="Crystal\reportrenderer_res_sv.dll" />
+    <Content Include="Crystal\reportrenderer_res_th.dll" />
+    <Content Include="Crystal\reportrenderer_res_tr.dll" />
+    <Content Include="Crystal\reportrenderer_res_zh_CN.dll" />
+    <Content Include="Crystal\reportrenderer_res_zh_TW.dll" />
+    <Content Include="Crystal\requestmodel.dll" />
+    <Content Include="Crystal\requestmodel_res_cs.dll" />
+    <Content Include="Crystal\requestmodel_res_da.dll" />
+    <Content Include="Crystal\requestmodel_res_de.dll" />
+    <Content Include="Crystal\requestmodel_res_en.dll" />
+    <Content Include="Crystal\requestmodel_res_es.dll" />
+    <Content Include="Crystal\requestmodel_res_fi.dll" />
+    <Content Include="Crystal\requestmodel_res_fr.dll" />
+    <Content Include="Crystal\requestmodel_res_hu.dll" />
+    <Content Include="Crystal\requestmodel_res_it.dll" />
+    <Content Include="Crystal\requestmodel_res_ja.dll" />
+    <Content Include="Crystal\requestmodel_res_ko.dll" />
+    <Content Include="Crystal\requestmodel_res_nb.dll" />
+    <Content Include="Crystal\requestmodel_res_nl.dll" />
+    <Content Include="Crystal\requestmodel_res_pl.dll" />
+    <Content Include="Crystal\requestmodel_res_pt.dll" />
+    <Content Include="Crystal\requestmodel_res_ru.dll" />
+    <Content Include="Crystal\requestmodel_res_sk.dll" />
+    <Content Include="Crystal\requestmodel_res_sv.dll" />
+    <Content Include="Crystal\requestmodel_res_th.dll" />
+    <Content Include="Crystal\requestmodel_res_tr.dll" />
+    <Content Include="Crystal\requestmodel_res_zh_CN.dll" />
+    <Content Include="Crystal\requestmodel_res_zh_TW.dll" />
+    <Content Include="Crystal\rptcontrollers.dll" />
+    <Content Include="Crystal\rptcontrollers_res_cs.dll" />
+    <Content Include="Crystal\rptcontrollers_res_da.dll" />
+    <Content Include="Crystal\rptcontrollers_res_de.dll" />
+    <Content Include="Crystal\rptcontrollers_res_en.dll" />
+    <Content Include="Crystal\rptcontrollers_res_es.dll" />
+    <Content Include="Crystal\rptcontrollers_res_fi.dll" />
+    <Content Include="Crystal\rptcontrollers_res_fr.dll" />
+    <Content Include="Crystal\rptcontrollers_res_hu.dll" />
+    <Content Include="Crystal\rptcontrollers_res_it.dll" />
+    <Content Include="Crystal\rptcontrollers_res_ja.dll" />
+    <Content Include="Crystal\rptcontrollers_res_ko.dll" />
+    <Content Include="Crystal\rptcontrollers_res_nb.dll" />
+    <Content Include="Crystal\rptcontrollers_res_nl.dll" />
+    <Content Include="Crystal\rptcontrollers_res_pl.dll" />
+    <Content Include="Crystal\rptcontrollers_res_pt.dll" />
+    <Content Include="Crystal\rptcontrollers_res_ru.dll" />
+    <Content Include="Crystal\rptcontrollers_res_sk.dll" />
+    <Content Include="Crystal\rptcontrollers_res_sv.dll" />
+    <Content Include="Crystal\rptcontrollers_res_th.dll" />
+    <Content Include="Crystal\rptcontrollers_res_tr.dll" />
+    <Content Include="Crystal\rptcontrollers_res_zh_CN.dll" />
+    <Content Include="Crystal\rptcontrollers_res_zh_TW.dll" />
+    <Content Include="Crystal\rptdefmodel.dll" />
+    <Content Include="Crystal\rptdefmodel_res_cs.dll" />
+    <Content Include="Crystal\rptdefmodel_res_da.dll" />
+    <Content Include="Crystal\rptdefmodel_res_de.dll" />
+    <Content Include="Crystal\rptdefmodel_res_en.dll" />
+    <Content Include="Crystal\rptdefmodel_res_es.dll" />
+    <Content Include="Crystal\rptdefmodel_res_fi.dll" />
+    <Content Include="Crystal\rptdefmodel_res_fr.dll" />
+    <Content Include="Crystal\rptdefmodel_res_hu.dll" />
+    <Content Include="Crystal\rptdefmodel_res_it.dll" />
+    <Content Include="Crystal\rptdefmodel_res_ja.dll" />
+    <Content Include="Crystal\rptdefmodel_res_ko.dll" />
+    <Content Include="Crystal\rptdefmodel_res_nb.dll" />
+    <Content Include="Crystal\rptdefmodel_res_nl.dll" />
+    <Content Include="Crystal\rptdefmodel_res_pl.dll" />
+    <Content Include="Crystal\rptdefmodel_res_pt.dll" />
+    <Content Include="Crystal\rptdefmodel_res_ru.dll" />
+    <Content Include="Crystal\rptdefmodel_res_sk.dll" />
+    <Content Include="Crystal\rptdefmodel_res_sv.dll" />
+    <Content Include="Crystal\rptdefmodel_res_th.dll" />
+    <Content Include="Crystal\rptdefmodel_res_tr.dll" />
+    <Content Include="Crystal\rptdefmodel_res_zh_CN.dll" />
+    <Content Include="Crystal\rptdefmodel_res_zh_TW.dll" />
+    <Content Include="Crystal\sacommlayer.dll" />
+    <Content Include="Crystal\sacommlayer_res_cs.dll" />
+    <Content Include="Crystal\sacommlayer_res_da.dll" />
+    <Content Include="Crystal\sacommlayer_res_de.dll" />
+    <Content Include="Crystal\sacommlayer_res_en.dll" />
+    <Content Include="Crystal\sacommlayer_res_es.dll" />
+    <Content Include="Crystal\sacommlayer_res_fi.dll" />
+    <Content Include="Crystal\sacommlayer_res_fr.dll" />
+    <Content Include="Crystal\sacommlayer_res_hu.dll" />
+    <Content Include="Crystal\sacommlayer_res_it.dll" />
+    <Content Include="Crystal\sacommlayer_res_ja.dll" />
+    <Content Include="Crystal\sacommlayer_res_ko.dll" />
+    <Content Include="Crystal\sacommlayer_res_nb.dll" />
+    <Content Include="Crystal\sacommlayer_res_nl.dll" />
+    <Content Include="Crystal\sacommlayer_res_pl.dll" />
+    <Content Include="Crystal\sacommlayer_res_pt.dll" />
+    <Content Include="Crystal\sacommlayer_res_ru.dll" />
+    <Content Include="Crystal\sacommlayer_res_sk.dll" />
+    <Content Include="Crystal\sacommlayer_res_sv.dll" />
+    <Content Include="Crystal\sacommlayer_res_th.dll" />
+    <Content Include="Crystal\sacommlayer_res_tr.dll" />
+    <Content Include="Crystal\sacommlayer_res_zh_CN.dll" />
+    <Content Include="Crystal\sacommlayer_res_zh_TW.dll" />
+    <Content Include="Crystal\sacommoncontrols.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_cs.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_da.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_de.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_en.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_es.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_fi.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_fr.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_hu.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_it.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_ja.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_ko.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_nb.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_nl.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_pl.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_pt.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_ru.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_sk.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_sv.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_th.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_tr.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_zh_CN.dll" />
+    <Content Include="Crystal\sacommoncontrols_res_zh_TW.dll" />
+    <Content Include="Crystal\sapcpp47.dll" />
+    <Content Include="Crystal\saxmlserialize.dll" />
+    <Content Include="Crystal\saxmlserialize_res_cs.dll" />
+    <Content Include="Crystal\saxmlserialize_res_da.dll" />
+    <Content Include="Crystal\saxmlserialize_res_de.dll" />
+    <Content Include="Crystal\saxmlserialize_res_en.dll" />
+    <Content Include="Crystal\saxmlserialize_res_es.dll" />
+    <Content Include="Crystal\saxmlserialize_res_fi.dll" />
+    <Content Include="Crystal\saxmlserialize_res_fr.dll" />
+    <Content Include="Crystal\saxmlserialize_res_hu.dll" />
+    <Content Include="Crystal\saxmlserialize_res_it.dll" />
+    <Content Include="Crystal\saxmlserialize_res_ja.dll" />
+    <Content Include="Crystal\saxmlserialize_res_ko.dll" />
+    <Content Include="Crystal\saxmlserialize_res_nb.dll" />
+    <Content Include="Crystal\saxmlserialize_res_nl.dll" />
+    <Content Include="Crystal\saxmlserialize_res_pl.dll" />
+    <Content Include="Crystal\saxmlserialize_res_pt.dll" />
+    <Content Include="Crystal\saxmlserialize_res_ru.dll" />
+    <Content Include="Crystal\saxmlserialize_res_sk.dll" />
+    <Content Include="Crystal\saxmlserialize_res_sv.dll" />
+    <Content Include="Crystal\saxmlserialize_res_th.dll" />
+    <Content Include="Crystal\saxmlserialize_res_tr.dll" />
+    <Content Include="Crystal\saxmlserialize_res_zh_CN.dll" />
+    <Content Include="Crystal\saxmlserialize_res_zh_TW.dll" />
+    <Content Include="Crystal\saxserialize.dll" />
+    <Content Include="Crystal\saxserialize_res_cs.dll" />
+    <Content Include="Crystal\saxserialize_res_da.dll" />
+    <Content Include="Crystal\saxserialize_res_de.dll" />
+    <Content Include="Crystal\saxserialize_res_en.dll" />
+    <Content Include="Crystal\saxserialize_res_es.dll" />
+    <Content Include="Crystal\saxserialize_res_fi.dll" />
+    <Content Include="Crystal\saxserialize_res_fr.dll" />
+    <Content Include="Crystal\saxserialize_res_hu.dll" />
+    <Content Include="Crystal\saxserialize_res_it.dll" />
+    <Content Include="Crystal\saxserialize_res_ja.dll" />
+    <Content Include="Crystal\saxserialize_res_ko.dll" />
+    <Content Include="Crystal\saxserialize_res_nb.dll" />
+    <Content Include="Crystal\saxserialize_res_nl.dll" />
+    <Content Include="Crystal\saxserialize_res_pl.dll" />
+    <Content Include="Crystal\saxserialize_res_pt.dll" />
+    <Content Include="Crystal\saxserialize_res_ru.dll" />
+    <Content Include="Crystal\saxserialize_res_sk.dll" />
+    <Content Include="Crystal\saxserialize_res_sv.dll" />
+    <Content Include="Crystal\saxserialize_res_th.dll" />
+    <Content Include="Crystal\saxserialize_res_tr.dll" />
+    <Content Include="Crystal\saxserialize_res_zh_CN.dll" />
+    <Content Include="Crystal\saxserialize_res_zh_TW.dll" />
+    <Content Include="Crystal\secSSO.dll" />
+    <Content Include="Crystal\smagentapi.dll" />
+    <Content Include="Crystal\smcommonutil.dll" />
+    <Content Include="Crystal\smerrlog.dll" />
+    <Content Include="Crystal\sscsdk80.dll" />
+    <Content Include="Crystal\sscsdk80_res_cs.dll" />
+    <Content Include="Crystal\sscsdk80_res_da.dll" />
+    <Content Include="Crystal\sscsdk80_res_de.dll" />
+    <Content Include="Crystal\sscsdk80_res_en.dll" />
+    <Content Include="Crystal\sscsdk80_res_es.dll" />
+    <Content Include="Crystal\sscsdk80_res_fi.dll" />
+    <Content Include="Crystal\sscsdk80_res_fr.dll" />
+    <Content Include="Crystal\sscsdk80_res_hu.dll" />
+    <Content Include="Crystal\sscsdk80_res_it.dll" />
+    <Content Include="Crystal\sscsdk80_res_ja.dll" />
+    <Content Include="Crystal\sscsdk80_res_ko.dll" />
+    <Content Include="Crystal\sscsdk80_res_nb.dll" />
+    <Content Include="Crystal\sscsdk80_res_nl.dll" />
+    <Content Include="Crystal\sscsdk80_res_pl.dll" />
+    <Content Include="Crystal\sscsdk80_res_pt.dll" />
+    <Content Include="Crystal\sscsdk80_res_ru.dll" />
+    <Content Include="Crystal\sscsdk80_res_sk.dll" />
+    <Content Include="Crystal\sscsdk80_res_sv.dll" />
+    <Content Include="Crystal\sscsdk80_res_th.dll" />
+    <Content Include="Crystal\sscsdk80_res_tr.dll" />
+    <Content Include="Crystal\sscsdk80_res_zh_CN.dll" />
+    <Content Include="Crystal\sscsdk80_res_zh_TW.dll" />
+    <Content Include="Crystal\TraceLog-4-0.dll" />
+    <Content Include="Crystal\u2122000.dll" />
+    <Content Include="Crystal\u212com.dll" />
+    <Content Include="Crystal\u212dts.dll" />
+    <Content Include="Crystal\u212exch.dll" />
+    <Content Include="Crystal\u212finra.dll" />
+    <Content Include="Crystal\u212samp.dll" />
+    <Content Include="Crystal\u252000.dll" />
+    <Content Include="Crystal\u25dts.dll" />
+    <Content Include="Crystal\u25samp1.dll" />
+    <Content Include="Crystal\u2ddisk.dll" />
+    <Content Include="Crystal\u2dmapi.dll" />
+    <Content Include="Crystal\u2dnotes.dll" />
+    <Content Include="Crystal\u2dpost.dll" />
+    <Content Include="Crystal\u2dvim.dll" />
+    <Content Include="Crystal\u2fcr.dll" />
+    <Content Include="Crystal\u2fodbc.dll" />
+    <Content Include="Crystal\u2frdef.dll" />
+    <Content Include="Crystal\u2frec.dll" />
+    <Content Include="Crystal\u2fsepv.dll" />
+    <Content Include="Crystal\u2ftext.dll" />
+    <Content Include="Crystal\u2fxml.dll" />
+    <Content Include="Crystal\u2l2000.dll" />
+    <Content Include="Crystal\u2lcom.dll" />
+    <Content Include="Crystal\u2ldts.dll" />
+    <Content Include="Crystal\u2lexch.dll" />
+    <Content Include="Crystal\u2lfinra.dll" />
+    <Content Include="Crystal\u31220cs.dll" />
+    <Content Include="Crystal\u31220da.dll" />
+    <Content Include="Crystal\u31220de.dll" />
+    <Content Include="Crystal\u31220en.dll" />
+    <Content Include="Crystal\u31220es.dll" />
+    <Content Include="Crystal\u31220fi.dll" />
+    <Content Include="Crystal\u31220fr.dll" />
+    <Content Include="Crystal\u31220hu.dll" />
+    <Content Include="Crystal\u31220it.dll" />
+    <Content Include="Crystal\u31220ja.dll" />
+    <Content Include="Crystal\u31220ko.dll" />
+    <Content Include="Crystal\u31220nb.dll" />
+    <Content Include="Crystal\u31220nl.dll" />
+    <Content Include="Crystal\u31220pl.dll" />
+    <Content Include="Crystal\u31220pt.dll" />
+    <Content Include="Crystal\u31220ru.dll" />
+    <Content Include="Crystal\u31220sk.dll" />
+    <Content Include="Crystal\u31220sv.dll" />
+    <Content Include="Crystal\u31220th.dll" />
+    <Content Include="Crystal\u31220tr.dll" />
+    <Content Include="Crystal\u31220zh_CN.dll" />
+    <Content Include="Crystal\u31220zh_TW.dll" />
+    <Content Include="Crystal\u312dtcs.dll" />
+    <Content Include="Crystal\u312dtda.dll" />
+    <Content Include="Crystal\u312dtde.dll" />
+    <Content Include="Crystal\u312dten.dll" />
+    <Content Include="Crystal\u312dtes.dll" />
+    <Content Include="Crystal\u312dtfi.dll" />
+    <Content Include="Crystal\u312dtfr.dll" />
+    <Content Include="Crystal\u312dthu.dll" />
+    <Content Include="Crystal\u312dtit.dll" />
+    <Content Include="Crystal\u312dtja.dll" />
+    <Content Include="Crystal\u312dtko.dll" />
+    <Content Include="Crystal\u312dtnb.dll" />
+    <Content Include="Crystal\u312dtnl.dll" />
+    <Content Include="Crystal\u312dtpl.dll" />
+    <Content Include="Crystal\u312dtpt.dll" />
+    <Content Include="Crystal\u312dtru.dll" />
+    <Content Include="Crystal\u312dtsk.dll" />
+    <Content Include="Crystal\u312dtsv.dll" />
+    <Content Include="Crystal\u312dtth.dll" />
+    <Content Include="Crystal\u312dttr.dll" />
+    <Content Include="Crystal\u312dtzh_CN.dll" />
+    <Content Include="Crystal\u312dtzh_TW.dll" />
+    <Content Include="Crystal\u312frcs.dll" />
+    <Content Include="Crystal\u312frda.dll" />
+    <Content Include="Crystal\u312frde.dll" />
+    <Content Include="Crystal\u312fren.dll" />
+    <Content Include="Crystal\u312fres.dll" />
+    <Content Include="Crystal\u312frfi.dll" />
+    <Content Include="Crystal\u312frfr.dll" />
+    <Content Include="Crystal\u312frhu.dll" />
+    <Content Include="Crystal\u312frit.dll" />
+    <Content Include="Crystal\u312frja.dll" />
+    <Content Include="Crystal\u312frko.dll" />
+    <Content Include="Crystal\u312frnb.dll" />
+    <Content Include="Crystal\u312frnl.dll" />
+    <Content Include="Crystal\u312frpl.dll" />
+    <Content Include="Crystal\u312frpt.dll" />
+    <Content Include="Crystal\u312frru.dll" />
+    <Content Include="Crystal\u312frsk.dll" />
+    <Content Include="Crystal\u312frsv.dll" />
+    <Content Include="Crystal\u312frth.dll" />
+    <Content Include="Crystal\u312frtr.dll" />
+    <Content Include="Crystal\u312frzh_CN.dll" />
+    <Content Include="Crystal\u312frzh_TW.dll" />
+    <Content Include="Crystal\u312sacs.dll" />
+    <Content Include="Crystal\u312sada.dll" />
+    <Content Include="Crystal\u312sade.dll" />
+    <Content Include="Crystal\u312saen.dll" />
+    <Content Include="Crystal\u312saes.dll" />
+    <Content Include="Crystal\u312safi.dll" />
+    <Content Include="Crystal\u312safr.dll" />
+    <Content Include="Crystal\u312sahu.dll" />
+    <Content Include="Crystal\u312sait.dll" />
+    <Content Include="Crystal\u312saja.dll" />
+    <Content Include="Crystal\u312sako.dll" />
+    <Content Include="Crystal\u312sanb.dll" />
+    <Content Include="Crystal\u312sanl.dll" />
+    <Content Include="Crystal\u312sapl.dll" />
+    <Content Include="Crystal\u312sapt.dll" />
+    <Content Include="Crystal\u312saru.dll" />
+    <Content Include="Crystal\u312sask.dll" />
+    <Content Include="Crystal\u312sasv.dll" />
+    <Content Include="Crystal\u312sath.dll" />
+    <Content Include="Crystal\u312satr.dll" />
+    <Content Include="Crystal\u312sazh_CN.dll" />
+    <Content Include="Crystal\u312sazh_TW.dll" />
+    <Content Include="Crystal\u312xcde.dll" />
+    <Content Include="Crystal\u312xcen.dll" />
+    <Content Include="Crystal\u312xces.dll" />
+    <Content Include="Crystal\u312xcfr.dll" />
+    <Content Include="Crystal\u312xcis.dll" />
+    <Content Include="Crystal\u312xcit.dll" />
+    <Content Include="Crystal\u312xcja.dll" />
+    <Content Include="Crystal\u312xcko.dll" />
+    <Content Include="Crystal\u312xcnl.dll" />
+    <Content Include="Crystal\u312xcpt.dll" />
+    <Content Include="Crystal\u312xcsv.dll" />
+    <Content Include="Crystal\u312xczh_CN.dll" />
+    <Content Include="Crystal\u312xczh_TW.dll" />
+    <Content Include="Crystal\u3520cs.dll" />
+    <Content Include="Crystal\u3520da.dll" />
+    <Content Include="Crystal\u3520de.dll" />
+    <Content Include="Crystal\u3520en.dll" />
+    <Content Include="Crystal\u3520es.dll" />
+    <Content Include="Crystal\u3520fi.dll" />
+    <Content Include="Crystal\u3520fr.dll" />
+    <Content Include="Crystal\u3520hu.dll" />
+    <Content Include="Crystal\u3520it.dll" />
+    <Content Include="Crystal\u3520ja.dll" />
+    <Content Include="Crystal\u3520ko.dll" />
+    <Content Include="Crystal\u3520nb.dll" />
+    <Content Include="Crystal\u3520nl.dll" />
+    <Content Include="Crystal\u3520pl.dll" />
+    <Content Include="Crystal\u3520pt.dll" />
+    <Content Include="Crystal\u3520ru.dll" />
+    <Content Include="Crystal\u3520sk.dll" />
+    <Content Include="Crystal\u3520sv.dll" />
+    <Content Include="Crystal\u3520th.dll" />
+    <Content Include="Crystal\u3520tr.dll" />
+    <Content Include="Crystal\u3520zh_CN.dll" />
+    <Content Include="Crystal\u3520zh_TW.dll" />
+    <Content Include="Crystal\u35dtcs.dll" />
+    <Content Include="Crystal\u35dtda.dll" />
+    <Content Include="Crystal\u35dtde.dll" />
+    <Content Include="Crystal\u35dten.dll" />
+    <Content Include="Crystal\u35dtes.dll" />
+    <Content Include="Crystal\u35dtfi.dll" />
+    <Content Include="Crystal\u35dtfr.dll" />
+    <Content Include="Crystal\u35dthu.dll" />
+    <Content Include="Crystal\u35dtit.dll" />
+    <Content Include="Crystal\u35dtja.dll" />
+    <Content Include="Crystal\u35dtko.dll" />
+    <Content Include="Crystal\u35dtnb.dll" />
+    <Content Include="Crystal\u35dtnl.dll" />
+    <Content Include="Crystal\u35dtpl.dll" />
+    <Content Include="Crystal\u35dtpt.dll" />
+    <Content Include="Crystal\u35dtru.dll" />
+    <Content Include="Crystal\u35dtsk.dll" />
+    <Content Include="Crystal\u35dtsv.dll" />
+    <Content Include="Crystal\u35dtth.dll" />
+    <Content Include="Crystal\u35dttr.dll" />
+    <Content Include="Crystal\u35dtzh_CN.dll" />
+    <Content Include="Crystal\u35dtzh_TW.dll" />
+    <Content Include="Crystal\u35s1cs.dll" />
+    <Content Include="Crystal\u35s1da.dll" />
+    <Content Include="Crystal\u35s1de.dll" />
+    <Content Include="Crystal\u35s1en.dll" />
+    <Content Include="Crystal\u35s1es.dll" />
+    <Content Include="Crystal\u35s1fi.dll" />
+    <Content Include="Crystal\u35s1fr.dll" />
+    <Content Include="Crystal\u35s1hu.dll" />
+    <Content Include="Crystal\u35s1it.dll" />
+    <Content Include="Crystal\u35s1ja.dll" />
+    <Content Include="Crystal\u35s1ko.dll" />
+    <Content Include="Crystal\u35s1nb.dll" />
+    <Content Include="Crystal\u35s1nl.dll" />
+    <Content Include="Crystal\u35s1pl.dll" />
+    <Content Include="Crystal\u35s1pt.dll" />
+    <Content Include="Crystal\u35s1ru.dll" />
+    <Content Include="Crystal\u35s1sk.dll" />
+    <Content Include="Crystal\u35s1sv.dll" />
+    <Content Include="Crystal\u35s1th.dll" />
+    <Content Include="Crystal\u35s1tr.dll" />
+    <Content Include="Crystal\u35s1zh_CN.dll" />
+    <Content Include="Crystal\u35s1zh_TW.dll" />
+    <Content Include="Crystal\u3l20cs.dll" />
+    <Content Include="Crystal\u3l20da.dll" />
+    <Content Include="Crystal\u3l20de.dll" />
+    <Content Include="Crystal\u3l20en.dll" />
+    <Content Include="Crystal\u3l20es.dll" />
+    <Content Include="Crystal\u3l20fi.dll" />
+    <Content Include="Crystal\u3l20fr.dll" />
+    <Content Include="Crystal\u3l20hu.dll" />
+    <Content Include="Crystal\u3l20it.dll" />
+    <Content Include="Crystal\u3l20ja.dll" />
+    <Content Include="Crystal\u3l20ko.dll" />
+    <Content Include="Crystal\u3l20nb.dll" />
+    <Content Include="Crystal\u3l20nl.dll" />
+    <Content Include="Crystal\u3l20pl.dll" />
+    <Content Include="Crystal\u3l20pt.dll" />
+    <Content Include="Crystal\u3l20ru.dll" />
+    <Content Include="Crystal\u3l20sk.dll" />
+    <Content Include="Crystal\u3l20sv.dll" />
+    <Content Include="Crystal\u3l20th.dll" />
+    <Content Include="Crystal\u3l20tr.dll" />
+    <Content Include="Crystal\u3l20zh_CN.dll" />
+    <Content Include="Crystal\u3l20zh_TW.dll" />
+    <Content Include="Crystal\u3ldtcs.dll" />
+    <Content Include="Crystal\u3ldtda.dll" />
+    <Content Include="Crystal\u3ldtde.dll" />
+    <Content Include="Crystal\u3ldten.dll" />
+    <Content Include="Crystal\u3ldtes.dll" />
+    <Content Include="Crystal\u3ldtfi.dll" />
+    <Content Include="Crystal\u3ldtfr.dll" />
+    <Content Include="Crystal\u3ldthu.dll" />
+    <Content Include="Crystal\u3ldtit.dll" />
+    <Content Include="Crystal\u3ldtja.dll" />
+    <Content Include="Crystal\u3ldtko.dll" />
+    <Content Include="Crystal\u3ldtnb.dll" />
+    <Content Include="Crystal\u3ldtnl.dll" />
+    <Content Include="Crystal\u3ldtpl.dll" />
+    <Content Include="Crystal\u3ldtpt.dll" />
+    <Content Include="Crystal\u3ldtru.dll" />
+    <Content Include="Crystal\u3ldtsk.dll" />
+    <Content Include="Crystal\u3ldtsv.dll" />
+    <Content Include="Crystal\u3ldtth.dll" />
+    <Content Include="Crystal\u3ldttr.dll" />
+    <Content Include="Crystal\u3ldtzh_CN.dll" />
+    <Content Include="Crystal\u3ldtzh_TW.dll" />
+    <Content Include="Crystal\u3lfrcs.dll" />
+    <Content Include="Crystal\u3lfrda.dll" />
+    <Content Include="Crystal\u3lfrde.dll" />
+    <Content Include="Crystal\u3lfren.dll" />
+    <Content Include="Crystal\u3lfres.dll" />
+    <Content Include="Crystal\u3lfrfi.dll" />
+    <Content Include="Crystal\u3lfrfr.dll" />
+    <Content Include="Crystal\u3lfrhu.dll" />
+    <Content Include="Crystal\u3lfrit.dll" />
+    <Content Include="Crystal\u3lfrja.dll" />
+    <Content Include="Crystal\u3lfrko.dll" />
+    <Content Include="Crystal\u3lfrnb.dll" />
+    <Content Include="Crystal\u3lfrnl.dll" />
+    <Content Include="Crystal\u3lfrpl.dll" />
+    <Content Include="Crystal\u3lfrpt.dll" />
+    <Content Include="Crystal\u3lfrru.dll" />
+    <Content Include="Crystal\u3lfrsk.dll" />
+    <Content Include="Crystal\u3lfrsv.dll" />
+    <Content Include="Crystal\u3lfrth.dll" />
+    <Content Include="Crystal\u3lfrtr.dll" />
+    <Content Include="Crystal\u3lfrzh_CN.dll" />
+    <Content Include="Crystal\u3lfrzh_TW.dll" />
+    <Content Include="Crystal\u3lxcde.dll" />
+    <Content Include="Crystal\u3lxcen.dll" />
+    <Content Include="Crystal\u3lxces.dll" />
+    <Content Include="Crystal\u3lxcfr.dll" />
+    <Content Include="Crystal\u3lxcis.dll" />
+    <Content Include="Crystal\u3lxcit.dll" />
+    <Content Include="Crystal\u3lxcja.dll" />
+    <Content Include="Crystal\u3lxcko.dll" />
+    <Content Include="Crystal\u3lxcnl.dll" />
+    <Content Include="Crystal\u3lxcpt.dll" />
+    <Content Include="Crystal\u3lxcsv.dll" />
+    <Content Include="Crystal\u3lxczh_CN.dll" />
+    <Content Include="Crystal\u3lxczh_TW.dll" />
+    <Content Include="Crystal\uf12manager.dll" />
+    <Content Include="Crystal\ufmanager.dll" />
+    <Content Include="Crystal\undomanager.dll" />
+    <Content Include="Crystal\usp10.dll" />
+    <Content Include="Crystal\x3ddkcs.dll" />
+    <Content Include="Crystal\x3ddkda.dll" />
+    <Content Include="Crystal\x3ddkde.dll" />
+    <Content Include="Crystal\x3ddken.dll" />
+    <Content Include="Crystal\x3ddkes.dll" />
+    <Content Include="Crystal\x3ddkfi.dll" />
+    <Content Include="Crystal\x3ddkfr.dll" />
+    <Content Include="Crystal\x3ddkhu.dll" />
+    <Content Include="Crystal\x3ddkit.dll" />
+    <Content Include="Crystal\x3ddkja.dll" />
+    <Content Include="Crystal\x3ddkko.dll" />
+    <Content Include="Crystal\x3ddknb.dll" />
+    <Content Include="Crystal\x3ddknl.dll" />
+    <Content Include="Crystal\x3ddkpl.dll" />
+    <Content Include="Crystal\x3ddkpt.dll" />
+    <Content Include="Crystal\x3ddkru.dll" />
+    <Content Include="Crystal\x3ddksk.dll" />
+    <Content Include="Crystal\x3ddksv.dll" />
+    <Content Include="Crystal\x3ddkth.dll" />
+    <Content Include="Crystal\x3ddktr.dll" />
+    <Content Include="Crystal\x3ddkzh_CN.dll" />
+    <Content Include="Crystal\x3ddkzh_TW.dll" />
+    <Content Include="Crystal\x3dmpcs.dll" />
+    <Content Include="Crystal\x3dmpda.dll" />
+    <Content Include="Crystal\x3dmpde.dll" />
+    <Content Include="Crystal\x3dmpen.dll" />
+    <Content Include="Crystal\x3dmpes.dll" />
+    <Content Include="Crystal\x3dmpfi.dll" />
+    <Content Include="Crystal\x3dmpfr.dll" />
+    <Content Include="Crystal\x3dmphu.dll" />
+    <Content Include="Crystal\x3dmpit.dll" />
+    <Content Include="Crystal\x3dmpja.dll" />
+    <Content Include="Crystal\x3dmpko.dll" />
+    <Content Include="Crystal\x3dmpnb.dll" />
+    <Content Include="Crystal\x3dmpnl.dll" />
+    <Content Include="Crystal\x3dmppl.dll" />
+    <Content Include="Crystal\x3dmppt.dll" />
+    <Content Include="Crystal\x3dmpru.dll" />
+    <Content Include="Crystal\x3dmpsk.dll" />
+    <Content Include="Crystal\x3dmpsv.dll" />
+    <Content Include="Crystal\x3dmpth.dll" />
+    <Content Include="Crystal\x3dmptr.dll" />
+    <Content Include="Crystal\x3dmpzh_CN.dll" />
+    <Content Include="Crystal\x3dmpzh_TW.dll" />
+    <Content Include="Crystal\x3dntcs.dll" />
+    <Content Include="Crystal\x3dntda.dll" />
+    <Content Include="Crystal\x3dntde.dll" />
+    <Content Include="Crystal\x3dnten.dll" />
+    <Content Include="Crystal\x3dntes.dll" />
+    <Content Include="Crystal\x3dntfi.dll" />
+    <Content Include="Crystal\x3dntfr.dll" />
+    <Content Include="Crystal\x3dnthu.dll" />
+    <Content Include="Crystal\x3dntit.dll" />
+    <Content Include="Crystal\x3dntja.dll" />
+    <Content Include="Crystal\x3dntko.dll" />
+    <Content Include="Crystal\x3dntnb.dll" />
+    <Content Include="Crystal\x3dntnl.dll" />
+    <Content Include="Crystal\x3dntpl.dll" />
+    <Content Include="Crystal\x3dntpt.dll" />
+    <Content Include="Crystal\x3dntru.dll" />
+    <Content Include="Crystal\x3dntsk.dll" />
+    <Content Include="Crystal\x3dntsv.dll" />
+    <Content Include="Crystal\x3dntth.dll" />
+    <Content Include="Crystal\x3dnttr.dll" />
+    <Content Include="Crystal\x3dntzh_CN.dll" />
+    <Content Include="Crystal\x3dntzh_TW.dll" />
+    <Content Include="Crystal\x3dptcs.dll" />
+    <Content Include="Crystal\x3dptda.dll" />
+    <Content Include="Crystal\x3dptde.dll" />
+    <Content Include="Crystal\x3dpten.dll" />
+    <Content Include="Crystal\x3dptes.dll" />
+    <Content Include="Crystal\x3dptfi.dll" />
+    <Content Include="Crystal\x3dptfr.dll" />
+    <Content Include="Crystal\x3dpthu.dll" />
+    <Content Include="Crystal\x3dptit.dll" />
+    <Content Include="Crystal\x3dptja.dll" />
+    <Content Include="Crystal\x3dptko.dll" />
+    <Content Include="Crystal\x3dptnb.dll" />
+    <Content Include="Crystal\x3dptnl.dll" />
+    <Content Include="Crystal\x3dptpl.dll" />
+    <Content Include="Crystal\x3dptpt.dll" />
+    <Content Include="Crystal\x3dptru.dll" />
+    <Content Include="Crystal\x3dptsk.dll" />
+    <Content Include="Crystal\x3dptsv.dll" />
+    <Content Include="Crystal\x3dptth.dll" />
+    <Content Include="Crystal\x3dpttr.dll" />
+    <Content Include="Crystal\x3dptzh_CN.dll" />
+    <Content Include="Crystal\x3dptzh_TW.dll" />
+    <Content Include="Crystal\x3dvmcs.dll" />
+    <Content Include="Crystal\x3dvmda.dll" />
+    <Content Include="Crystal\x3dvmde.dll" />
+    <Content Include="Crystal\x3dvmen.dll" />
+    <Content Include="Crystal\x3dvmes.dll" />
+    <Content Include="Crystal\x3dvmfi.dll" />
+    <Content Include="Crystal\x3dvmfr.dll" />
+    <Content Include="Crystal\x3dvmhu.dll" />
+    <Content Include="Crystal\x3dvmit.dll" />
+    <Content Include="Crystal\x3dvmja.dll" />
+    <Content Include="Crystal\x3dvmko.dll" />
+    <Content Include="Crystal\x3dvmnb.dll" />
+    <Content Include="Crystal\x3dvmnl.dll" />
+    <Content Include="Crystal\x3dvmpl.dll" />
+    <Content Include="Crystal\x3dvmpt.dll" />
+    <Content Include="Crystal\x3dvmru.dll" />
+    <Content Include="Crystal\x3dvmsk.dll" />
+    <Content Include="Crystal\x3dvmsv.dll" />
+    <Content Include="Crystal\x3dvmth.dll" />
+    <Content Include="Crystal\x3dvmtr.dll" />
+    <Content Include="Crystal\x3dvmzh_CN.dll" />
+    <Content Include="Crystal\x3dvmzh_TW.dll" />
+    <Content Include="Crystal\x3fcrcs.dll" />
+    <Content Include="Crystal\x3fcrda.dll" />
+    <Content Include="Crystal\x3fcrde.dll" />
+    <Content Include="Crystal\x3fcren.dll" />
+    <Content Include="Crystal\x3fcres.dll" />
+    <Content Include="Crystal\x3fcrfi.dll" />
+    <Content Include="Crystal\x3fcrfr.dll" />
+    <Content Include="Crystal\x3fcrhu.dll" />
+    <Content Include="Crystal\x3fcrit.dll" />
+    <Content Include="Crystal\x3fcrja.dll" />
+    <Content Include="Crystal\x3fcrko.dll" />
+    <Content Include="Crystal\x3fcrnb.dll" />
+    <Content Include="Crystal\x3fcrnl.dll" />
+    <Content Include="Crystal\x3fcrpl.dll" />
+    <Content Include="Crystal\x3fcrpt.dll" />
+    <Content Include="Crystal\x3fcrru.dll" />
+    <Content Include="Crystal\x3fcrsk.dll" />
+    <Content Include="Crystal\x3fcrsv.dll" />
+    <Content Include="Crystal\x3fcrth.dll" />
+    <Content Include="Crystal\x3fcrtr.dll" />
+    <Content Include="Crystal\x3fcrzh_CN.dll" />
+    <Content Include="Crystal\x3fcrzh_TW.dll" />
+    <Content Include="Crystal\x3fodcs.dll" />
+    <Content Include="Crystal\x3fodda.dll" />
+    <Content Include="Crystal\x3fodde.dll" />
+    <Content Include="Crystal\x3foden.dll" />
+    <Content Include="Crystal\x3fodes.dll" />
+    <Content Include="Crystal\x3fodfi.dll" />
+    <Content Include="Crystal\x3fodfr.dll" />
+    <Content Include="Crystal\x3fodhu.dll" />
+    <Content Include="Crystal\x3fodit.dll" />
+    <Content Include="Crystal\x3fodja.dll" />
+    <Content Include="Crystal\x3fodko.dll" />
+    <Content Include="Crystal\x3fodnb.dll" />
+    <Content Include="Crystal\x3fodnl.dll" />
+    <Content Include="Crystal\x3fodpl.dll" />
+    <Content Include="Crystal\x3fodpt.dll" />
+    <Content Include="Crystal\x3fodru.dll" />
+    <Content Include="Crystal\x3fodsk.dll" />
+    <Content Include="Crystal\x3fodsv.dll" />
+    <Content Include="Crystal\x3fodth.dll" />
+    <Content Include="Crystal\x3fodtr.dll" />
+    <Content Include="Crystal\x3fodzh_CN.dll" />
+    <Content Include="Crystal\x3fodzh_TW.dll" />
+    <Content Include="Crystal\x3frccs.dll" />
+    <Content Include="Crystal\x3frcda.dll" />
+    <Content Include="Crystal\x3frcde.dll" />
+    <Content Include="Crystal\x3frcen.dll" />
+    <Content Include="Crystal\x3frces.dll" />
+    <Content Include="Crystal\x3frcfi.dll" />
+    <Content Include="Crystal\x3frcfr.dll" />
+    <Content Include="Crystal\x3frchu.dll" />
+    <Content Include="Crystal\x3frcit.dll" />
+    <Content Include="Crystal\x3frcja.dll" />
+    <Content Include="Crystal\x3frcko.dll" />
+    <Content Include="Crystal\x3frcnb.dll" />
+    <Content Include="Crystal\x3frcnl.dll" />
+    <Content Include="Crystal\x3frcpl.dll" />
+    <Content Include="Crystal\x3frcpt.dll" />
+    <Content Include="Crystal\x3frcru.dll" />
+    <Content Include="Crystal\x3frcsk.dll" />
+    <Content Include="Crystal\x3frcsv.dll" />
+    <Content Include="Crystal\x3frcth.dll" />
+    <Content Include="Crystal\x3frctr.dll" />
+    <Content Include="Crystal\x3frczh_CN.dll" />
+    <Content Include="Crystal\x3frczh_TW.dll" />
+    <Content Include="Crystal\x3frdcs.dll" />
+    <Content Include="Crystal\x3frdda.dll" />
+    <Content Include="Crystal\x3frdde.dll" />
+    <Content Include="Crystal\x3frden.dll" />
+    <Content Include="Crystal\x3frdes.dll" />
+    <Content Include="Crystal\x3frdfi.dll" />
+    <Content Include="Crystal\x3frdfr.dll" />
+    <Content Include="Crystal\x3frdhu.dll" />
+    <Content Include="Crystal\x3frdit.dll" />
+    <Content Include="Crystal\x3frdja.dll" />
+    <Content Include="Crystal\x3frdko.dll" />
+    <Content Include="Crystal\x3frdnb.dll" />
+    <Content Include="Crystal\x3frdnl.dll" />
+    <Content Include="Crystal\x3frdpl.dll" />
+    <Content Include="Crystal\x3frdpt.dll" />
+    <Content Include="Crystal\x3frdru.dll" />
+    <Content Include="Crystal\x3frdsk.dll" />
+    <Content Include="Crystal\x3frdsv.dll" />
+    <Content Include="Crystal\x3frdth.dll" />
+    <Content Include="Crystal\x3frdtr.dll" />
+    <Content Include="Crystal\x3frdzh_CN.dll" />
+    <Content Include="Crystal\x3frdzh_TW.dll" />
+    <Content Include="Crystal\x3fsvcs.dll" />
+    <Content Include="Crystal\x3fsvda.dll" />
+    <Content Include="Crystal\x3fsvde.dll" />
+    <Content Include="Crystal\x3fsven.dll" />
+    <Content Include="Crystal\x3fsves.dll" />
+    <Content Include="Crystal\x3fsvfi.dll" />
+    <Content Include="Crystal\x3fsvfr.dll" />
+    <Content Include="Crystal\x3fsvhu.dll" />
+    <Content Include="Crystal\x3fsvit.dll" />
+    <Content Include="Crystal\x3fsvja.dll" />
+    <Content Include="Crystal\x3fsvko.dll" />
+    <Content Include="Crystal\x3fsvnb.dll" />
+    <Content Include="Crystal\x3fsvnl.dll" />
+    <Content Include="Crystal\x3fsvpl.dll" />
+    <Content Include="Crystal\x3fsvpt.dll" />
+    <Content Include="Crystal\x3fsvru.dll" />
+    <Content Include="Crystal\x3fsvsk.dll" />
+    <Content Include="Crystal\x3fsvsv.dll" />
+    <Content Include="Crystal\x3fsvth.dll" />
+    <Content Include="Crystal\x3fsvtr.dll" />
+    <Content Include="Crystal\x3fsvzh_CN.dll" />
+    <Content Include="Crystal\x3fsvzh_TW.dll" />
+    <Content Include="Crystal\x3ftxcs.dll" />
+    <Content Include="Crystal\x3ftxda.dll" />
+    <Content Include="Crystal\x3ftxde.dll" />
+    <Content Include="Crystal\x3ftxen.dll" />
+    <Content Include="Crystal\x3ftxes.dll" />
+    <Content Include="Crystal\x3ftxfi.dll" />
+    <Content Include="Crystal\x3ftxfr.dll" />
+    <Content Include="Crystal\x3ftxhu.dll" />
+    <Content Include="Crystal\x3ftxit.dll" />
+    <Content Include="Crystal\x3ftxja.dll" />
+    <Content Include="Crystal\x3ftxko.dll" />
+    <Content Include="Crystal\x3ftxnb.dll" />
+    <Content Include="Crystal\x3ftxnl.dll" />
+    <Content Include="Crystal\x3ftxpl.dll" />
+    <Content Include="Crystal\x3ftxpt.dll" />
+    <Content Include="Crystal\x3ftxru.dll" />
+    <Content Include="Crystal\x3ftxsk.dll" />
+    <Content Include="Crystal\x3ftxsv.dll" />
+    <Content Include="Crystal\x3ftxth.dll" />
+    <Content Include="Crystal\x3ftxtr.dll" />
+    <Content Include="Crystal\x3ftxzh_CN.dll" />
+    <Content Include="Crystal\x3ftxzh_TW.dll" />
+    <Content Include="Crystal\x3fxm2cs.dll" />
+    <Content Include="Crystal\x3fxm2da.dll" />
+    <Content Include="Crystal\x3fxm2de.dll" />
+    <Content Include="Crystal\x3fxm2en.dll" />
+    <Content Include="Crystal\x3fxm2es.dll" />
+    <Content Include="Crystal\x3fxm2fi.dll" />
+    <Content Include="Crystal\x3fxm2fr.dll" />
+    <Content Include="Crystal\x3fxm2hu.dll" />
+    <Content Include="Crystal\x3fxm2it.dll" />
+    <Content Include="Crystal\x3fxm2ja.dll" />
+    <Content Include="Crystal\x3fxm2ko.dll" />
+    <Content Include="Crystal\x3fxm2nb.dll" />
+    <Content Include="Crystal\x3fxm2nl.dll" />
+    <Content Include="Crystal\x3fxm2pl.dll" />
+    <Content Include="Crystal\x3fxm2pt.dll" />
+    <Content Include="Crystal\x3fxm2ru.dll" />
+    <Content Include="Crystal\x3fxm2sk.dll" />
+    <Content Include="Crystal\x3fxm2sv.dll" />
+    <Content Include="Crystal\x3fxm2th.dll" />
+    <Content Include="Crystal\x3fxm2tr.dll" />
+    <Content Include="Crystal\x3fxm2zh_CN.dll" />
+    <Content Include="Crystal\x3fxm2zh_TW.dll" />
+    <Content Include="Crystal\x3fxmcs.dll" />
+    <Content Include="Crystal\x3fxmda.dll" />
+    <Content Include="Crystal\x3fxmde.dll" />
+    <Content Include="Crystal\x3fxmen.dll" />
+    <Content Include="Crystal\x3fxmes.dll" />
+    <Content Include="Crystal\x3fxmfi.dll" />
+    <Content Include="Crystal\x3fxmfr.dll" />
+    <Content Include="Crystal\x3fxmhu.dll" />
+    <Content Include="Crystal\x3fxmit.dll" />
+    <Content Include="Crystal\x3fxmja.dll" />
+    <Content Include="Crystal\x3fxmko.dll" />
+    <Content Include="Crystal\x3fxmnb.dll" />
+    <Content Include="Crystal\x3fxmnl.dll" />
+    <Content Include="Crystal\x3fxmpl.dll" />
+    <Content Include="Crystal\x3fxmpt.dll" />
+    <Content Include="Crystal\x3fxmru.dll" />
+    <Content Include="Crystal\x3fxmsk.dll" />
+    <Content Include="Crystal\x3fxmsv.dll" />
+    <Content Include="Crystal\x3fxmth.dll" />
+    <Content Include="Crystal\x3fxmtr.dll" />
+    <Content Include="Crystal\x3fxmzh_CN.dll" />
+    <Content Include="Crystal\x3fxmzh_TW.dll" />
+    <Content Include="Crystal\Xalan-C_1_10.dll" />
+    <Content Include="Crystal\XalanMessages_1_10.dll" />
+    <Content Include="Crystal\xerces-c_2_1_0.dll" />
+    <Content Include="Crystal\xerces-c_2_7.dll" />
+    <Content Include="Crystal\XERCES21_LICENSE.txt" />
+    <Content Include="Crystal\XERCES27_LICENSE.txt" />
+    <Content Include="Crystal\zlib.dll" />
+    <Content Include="Database.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icob.ico" />
+    <Content Include="icone.ico" />
+    <None Include="Resources\maroc.png" />
+    <None Include="Resources\maroc1.png" />
+    <None Include="Resources\maroc2.png" />
+    <None Include="Resources\maroc1.jpg" />
+    <None Include="Resources\maroc3.png" />
+    <None Include="Resources\maroc4.png" />
+    <None Include="Resources\maroc4B.png" />
+    <None Include="Resources\loader.gif" />
+    <None Include="Resources\loading_progress.gif" />
+    <None Include="Resources\exporting.png" />
+    <None Include="Resources\importing.png" />
+    <None Include="Resources\exporting1.png" />
+    <None Include="Resources\exporting2.png" />
+    <None Include="Resources\importing2.png" />
+    <None Include="Resources\clearing.png" />
+    <None Include="Resources\edeting.png" />
+    <None Include="Resources\aide.png" />
+    <None Include="Resources\aideB.png" />
+    <None Include="Resources\bkwhite.png" />
+    <None Include="Resources\hand.png" />
+    <None Include="Resources\arrow.png" />
+    <None Include="Resources\arrow1.png" />
+    <None Include="Resources\arrowup.png" />
+    <None Include="Resources\bill.png" />
+    <None Include="Resources\edeting1.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\delete1.png" />
+    <None Include="Resources\cal.png" />
+    <None Include="Resources\cal1.png" />
+    <None Include="Resources\con1.png" />
+    <Content Include="Resources\ex1.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\exporting21.png" />
+    <Content Include="Resources\exportTarif.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\gestionTarif.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\helpbtn.png" />
+    <None Include="Resources\helpbtn1.png" />
+    <None Include="Resources\helpbtn2.png" />
+    <None Include="Resources\helpbtn3.png" />
+    <None Include="Resources\helpbtn4.png" />
+    <None Include="Resources\helpbtn5.png" />
+    <None Include="Resources\helpbtn6.png" />
+    <None Include="Resources\helpbtn7.png" />
+    <None Include="Resources\helpbtn71.png" />
+    <None Include="Resources\importing21.png" />
+    <Content Include="Resources\importTarif.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\loading1.png" />
+    <None Include="Resources\recycle.png" />
+    <None Include="Resources\shopping.png" />
+    <None Include="Resources\winhelp.png" />
+    <Content Include="sqlceca35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlcecompact35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceer35EN.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceme35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceoledb35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceqp35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlcese35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\bkf.png" />
+    <None Include="Resources\bkf1.png" />
+    <None Include="Resources\bk1.png" />
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

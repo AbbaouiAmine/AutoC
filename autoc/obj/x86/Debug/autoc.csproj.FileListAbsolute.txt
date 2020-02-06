@@ -1,0 +1,493 @@
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\bin\Debug\autoc.exe.config
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\bin\Debug\autoc.exe
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\bin\Debug\autoc.pdb
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.csprojResolveAssemblyReference.cache
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc._02Accessoire.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc._03Consultation.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc._04Fiche.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.Menu.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.Properties.Resources.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.GenerateResource.Cache
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.exe
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.pdb
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc.Welcome.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\bin\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.fr.resources
+C:\Users\root\Desktop\projet maison\code source\autoc\autoc\obj\x86\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlceca35.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlcecompact35.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlceer35EN.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlceme35.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlceoledb35.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlceqp35.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sqlcese35.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Database.sdf
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\autoc.exe.config
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\autoc.exe
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\autoc.pdb
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Humanizer.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\NuGet.Core.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Humanizer.pdb
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Humanizer.xml
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\af\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ar\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\bg\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\bn-BD\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\cs\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\da\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\de\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\el\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\es\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\fa\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\fi-FI\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\fr\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\fr-BE\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\he\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\hu\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\id\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\it\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ja\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\nb\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\nb-NO\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\nl\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\pl\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\pt\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ro\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ru\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sk\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sl\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sr\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sr-Latn\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\sv\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\tr\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\uk\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\vi\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\zh-CN\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\zh-Hans\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\zh-Hant\Humanizer.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._02Accessoire.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._03Consultation.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._04Fiche.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._05Facture.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.Menu.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.Properties.Resources.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.Welcome.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.fr.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.GenerateResource.Cache
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.exe
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.pdb
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.csprojResolveAssemblyReference.cache
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.Wait.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._06Aide.resources
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Interop.WMPLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.ResolveComReference.cache
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Resources\ex1.mp4
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Resources\gestionTarif.mp4
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Resources\importTarif.mp4
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Resources\exportTarif.mp4
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._07Remise.resources
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\autoc.exe.config
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.csproj.ResolveComReference.cache
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.exe
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.pdb
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Resources\ex1.mp4
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlceca35.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlcecompact35.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlceer35EN.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlceme35.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlceoledb35.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlceqp35.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sqlcese35.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Database.sdf
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Resources\exportTarif.mp4
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Resources\gestionTarif.mp4
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Resources\importTarif.mp4
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\autoc.exe
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\autoc.pdb
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Humanizer.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\NuGet.Core.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Humanizer.pdb
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Humanizer.xml
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\af\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\ar\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\bg\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\bn-BD\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\cs\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\da\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\de\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\el\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\es\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\fa\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\fi-FI\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\fr\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\fr-BE\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\he\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\hu\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\id\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\it\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\ja\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\nb\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\nb-NO\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\nl\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\pl\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\pt\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\ro\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\ru\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sk\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sl\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sr\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sr-Latn\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\sv\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\tr\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\uk\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\vi\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\zh-CN\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\zh-Hans\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\zh-Hant\Humanizer.resources.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\Interop.WMPLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.csprojResolveAssemblyReference.cache
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._01Tarif.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._02Accessoire.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._03Consultation.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._04Fiche.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._05Facture.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._06Aide.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._07Remise.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.Menu.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.Properties.Resources.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.Wait.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.Welcome.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc._01Tarif.fr.resources
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\autoc.csproj.GenerateResource.Cache
+C:\Users\root\Desktop\projet maison\code source 2\autoc\autoc\obj\x86\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\autoc.exe.config
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.csproj.ResolveComReference.cache
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.exe
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.pdb
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Resources\ex1.mp4
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlceca35.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlcecompact35.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlceer35EN.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlceme35.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlceoledb35.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlceqp35.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sqlcese35.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Database.sdf
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Resources\exportTarif.mp4
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Resources\gestionTarif.mp4
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Resources\importTarif.mp4
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\autoc.exe
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\autoc.pdb
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Humanizer.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\NuGet.Core.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Humanizer.pdb
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Humanizer.xml
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\af\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\ar\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\bg\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\bn-BD\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\cs\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\da\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\de\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\el\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\es\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\fa\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\fi-FI\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\fr\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\fr-BE\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\he\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\hu\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\id\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\it\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\ja\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\nb\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\nb-NO\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\nl\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\pl\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\pt\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\ro\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\ru\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sk\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sl\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sr\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sr-Latn\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\sv\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\tr\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\uk\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\vi\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\zh-CN\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\zh-Hans\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\zh-Hant\Humanizer.resources.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\Interop.WMPLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.csprojResolveAssemblyReference.cache
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._01Tarif.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._02Accessoire.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._03Consultation.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._04Fiche.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._05Facture.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._06Aide.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._07Remise.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.Menu.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.Properties.Resources.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.Wait.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.Welcome.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc._01Tarif.fr.resources
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\autoc.csproj.GenerateResource.Cache
+C:\Users\root\Desktop\code source 2\autoc\autoc\obj\x86\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\FileAssociationInfo.cs
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ProgramAssociationInfo.cs
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ProgramIcon.cs
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ProgramVerb.cs
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\RegistryException.cs
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\RegistryWrapper.cs
+C:\Users\root\Desktop\code source\autoc\autoc\bin\Debug\ShellNotification.cs
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._08Choix.resources
+D:\code source\autoc\autoc\bin\Debug\autoc.exe.config
+D:\code source\autoc\autoc\obj\x86\Debug\Interop.AcroPDFLib.dll
+D:\code source\autoc\autoc\obj\x86\Debug\Interop.WMPLib.dll
+D:\code source\autoc\autoc\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+D:\code source\autoc\autoc\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.ResolveComReference.cache
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.exe
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.pdb
+D:\code source\autoc\autoc\bin\Debug\Resources\ex1.mp4
+D:\code source\autoc\autoc\bin\Debug\sqlceca35.dll
+D:\code source\autoc\autoc\bin\Debug\sqlcecompact35.dll
+D:\code source\autoc\autoc\bin\Debug\sqlceer35EN.dll
+D:\code source\autoc\autoc\bin\Debug\sqlceme35.dll
+D:\code source\autoc\autoc\bin\Debug\sqlceoledb35.dll
+D:\code source\autoc\autoc\bin\Debug\sqlceqp35.dll
+D:\code source\autoc\autoc\bin\Debug\sqlcese35.dll
+D:\code source\autoc\autoc\bin\Debug\FileAssociationInfo.cs
+D:\code source\autoc\autoc\bin\Debug\ProgramAssociationInfo.cs
+D:\code source\autoc\autoc\bin\Debug\ProgramIcon.cs
+D:\code source\autoc\autoc\bin\Debug\ProgramVerb.cs
+D:\code source\autoc\autoc\bin\Debug\RegistryException.cs
+D:\code source\autoc\autoc\bin\Debug\RegistryWrapper.cs
+D:\code source\autoc\autoc\bin\Debug\ShellNotification.cs
+D:\code source\autoc\autoc\bin\Debug\Database.sdf
+D:\code source\autoc\autoc\bin\Debug\Resources\exportTarif.mp4
+D:\code source\autoc\autoc\bin\Debug\Resources\gestionTarif.mp4
+D:\code source\autoc\autoc\bin\Debug\Resources\importTarif.mp4
+D:\code source\autoc\autoc\bin\Debug\autoc.exe
+D:\code source\autoc\autoc\bin\Debug\autoc.pdb
+D:\code source\autoc\autoc\bin\Debug\fr\autoc.resources.dll
+D:\code source\autoc\autoc\bin\Debug\Humanizer.dll
+D:\code source\autoc\autoc\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\code source\autoc\autoc\bin\Debug\NuGet.Core.dll
+D:\code source\autoc\autoc\bin\Debug\System.Data.SqlServerCe.dll
+D:\code source\autoc\autoc\bin\Debug\Humanizer.pdb
+D:\code source\autoc\autoc\bin\Debug\Humanizer.xml
+D:\code source\autoc\autoc\bin\Debug\af\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\ar\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\bg\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\bn-BD\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\cs\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\da\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\de\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\el\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\es\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\fa\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\fi-FI\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\fr\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\fr-BE\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\he\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\hu\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\id\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\it\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\ja\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\nb\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\nb-NO\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\nl\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\pl\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\pt\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\ro\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\ru\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\sk\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\sl\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\sr\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\sr-Latn\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\sv\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\tr\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\uk\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\uz-Latn-UZ\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\vi\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\zh-CN\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\zh-Hans\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\zh-Hant\Humanizer.resources.dll
+D:\code source\autoc\autoc\bin\Debug\Interop.AcroPDFLib.dll
+D:\code source\autoc\autoc\bin\Debug\Interop.WMPLib.dll
+D:\code source\autoc\autoc\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\code source\autoc\autoc\bin\Debug\AxInterop.WMPLib.dll
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.csprojResolveAssemblyReference.cache
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._02Accessoire.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._03Consultation.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._04Fiche.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._05Facture.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._06Aide.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._07Remise.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._08Choix.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.Menu.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.Properties.Resources.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.Wait.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.Welcome.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.fr.resources
+D:\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.GenerateResource.Cache
+D:\code source\autoc\autoc\obj\x86\Debug\fr\autoc.resources.dll
+C:\Users\root\Desktop\code source\autoc\autoc\obj\x86\Debug\autoc._09Message.resources
+G:\Bureau\code source\autoc\autoc\bin\Debug\autoc.exe.config
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\Interop.AcroPDFLib.dll
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\Interop.WMPLib.dll
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\AxInterop.WMPLib.dll
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.ResolveComReference.cache
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.exe
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.pdb
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.csprojResolveAssemblyReference.cache
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._02Accessoire.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._03Consultation.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._04Fiche.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._05Facture.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._06Aide.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._07Remise.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._08Choix.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._09Message.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.Menu.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.Properties.Resources.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.Wait.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.Welcome.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc._01Tarif.fr.resources
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\autoc.csproj.GenerateResource.Cache
+G:\Bureau\code source\autoc\autoc\bin\Debug\Resources\ex1.mp4
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlceca35.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlcecompact35.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlceer35EN.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlceme35.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlceoledb35.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlceqp35.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sqlcese35.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\FileAssociationInfo.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\ProgramAssociationInfo.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\ProgramIcon.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\ProgramVerb.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\RegistryException.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\RegistryWrapper.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\ShellNotification.cs
+G:\Bureau\code source\autoc\autoc\bin\Debug\Database.sdf
+G:\Bureau\code source\autoc\autoc\bin\Debug\Resources\exportTarif.mp4
+G:\Bureau\code source\autoc\autoc\bin\Debug\Resources\gestionTarif.mp4
+G:\Bureau\code source\autoc\autoc\bin\Debug\Resources\importTarif.mp4
+G:\Bureau\code source\autoc\autoc\bin\Debug\autoc.exe
+G:\Bureau\code source\autoc\autoc\bin\Debug\autoc.pdb
+G:\Bureau\code source\autoc\autoc\bin\Debug\fr\autoc.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportSource.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.Shared.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.Windows.Forms.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\FlashControlV71.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\Humanizer.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\Microsoft.Web.XmlTransform.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\NuGet.Core.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\System.Data.SqlServerCe.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\ShockwaveFlashObjects.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\stdole.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\Humanizer.pdb
+G:\Bureau\code source\autoc\autoc\bin\Debug\Humanizer.xml
+G:\Bureau\code source\autoc\autoc\bin\Debug\af\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\ar\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\bg\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\bn-BD\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\cs\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\da\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\de\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\el\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\es\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\fa\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\fi-FI\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\fr\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\fr-BE\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\he\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\hu\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\id\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\it\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\ja\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\nb\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\nb-NO\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\nl\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\pl\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\pt\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\ro\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\ru\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sk\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sl\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sr\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sr-Latn\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\sv\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\tr\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\uk\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\uz-Cyrl-UZ\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\uz-Latn-UZ\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\vi\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\zh-CN\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\zh-Hans\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\zh-Hant\Humanizer.resources.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\Interop.AcroPDFLib.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\Interop.WMPLib.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\AxInterop.AcroPDFLib.dll
+G:\Bureau\code source\autoc\autoc\bin\Debug\AxInterop.WMPLib.dll
+G:\Bureau\code source\autoc\autoc\obj\x86\Debug\fr\autoc.resources.dll
